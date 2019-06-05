@@ -1,0 +1,36 @@
+SQL commands:
+To get frequently used milestones:
+
+SELECT `milestone_name`, count(*) as frequency FROM `rawdataDec15`
+group by milestone_name order by frequency desc
+
+Getting list of features for each user:
+create table userMilestoneDec15 as
+SELECT user_id, milestone_name FROM `rawdataDec15` order by user_id,milestone
+
+create table userDistinctMilestoneDec15 as select distinct * from userMilestoneDec15
+
+Having difficulty with phymyadmin with export: downloading used command line:
+mysql -u cs4477200 -p < temp.sql > userDistinctMilestoneDec15.txt
+temp.sql:  select * from cs4477203.userDistinctMilestoneDec15;
+vi the file convert tabs to spaces, delete column names
+
+Create file for association
+java flattenForRassociation userDistinctMilestoneDec15.txt | \
+grep ',' > userFeatureAssociationRDec15.csv
+
+R commands:
+install.packages("arules")
+library("arules")
+tr=read.transactions("userFeatureAssociationRDec15.csv",format="basket",sep=",")
+rules<- apriori(tr, parameter= list(supp=0.4, conf=0.5))
+itemsets=unique(generatingItemsets(rules))
+write(rules,file=”userRules.txt”)
+write(itemsets)
+
+#To get maximal sets
+maximal.sets<- apriori(tr, parameter= list(supp=0.4, conf=0.5, target="maximally frequent itemsets"))
+write(maximal.sets)
+
+Miscellaneous vi command to get precison of 2
+%s/\([0-9]\)\.\([0-9][0-9]\)[0-9][0-9]*/\1\.\2/g

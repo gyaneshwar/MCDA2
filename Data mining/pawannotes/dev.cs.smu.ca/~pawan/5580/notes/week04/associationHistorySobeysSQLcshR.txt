@@ -1,0 +1,107 @@
+### UNIX commands
+echo 'select customer_sk, item_sk from dataset10.customerProductRevenue' | mysql -u pawan -p > customerProduct.txt
+ java flatten < customerProduct.txt > sobeyAssociation.txt
+wc sobeyAssociation.txt
+ more sobeyAssociation.txt
+sed '1 d' sobeyAssociation.txt > temp
+mv temp sobeyAssociation.txt
+
+### Entering R
+install.packages("arules")
+library("arules")
+tr=read.transactions("sobeyAssociation.csv",,format="basket",sep=" ")
+tr=read.transactions("sobeyAssociation.txt",,format="basket",sep=" ")
+tr
+rules<- apriori(tr, parameter= list(supp=0.004, conf=0.5))
+inspect(rules)
+rules<- apriori(tr, parameter= list(supp=0.2, conf=0.5))
+rules<- apriori(tr, parameter= list(supp=0.1, conf=0.5))
+
+inspect(rules)
+    lhs            rhs         support   confidence lift
+[1] {p11742736} => {p11740941} 0.1031802 0.7720500  1.815570
+[2] {p11741274} => {p11740941} 0.1046785 0.7573189  1.780928
+[3] {p11740923} => {p11740941} 0.1212616 0.7256600  1.706478
+[4] {p11611881} => {p11740941} 0.1148717 0.7829369  1.841172
+[5] {p11686823} => {p11740941} 0.1241172 0.7409885  1.742525
+[6] {p11743201} => {p11740941} 0.1303855 0.7726514  1.816984
+
+### All rules point to one item o
+
+SELECT * 
+FROM items
+WHERE item_sk =11740941
+
+### Turns out to be banana
+
+grep -v "11740941" customerProduct.txt > noBanana.txt
+ java flatten noBanana.txt | sed '1 d' > sobeyAssociationNoBanana.txt
+
+rules<- apriori(tr, parameter= list(supp=0.1, conf=0.5))
+### No rules
+rules<- apriori(tr, parameter= list(supp=0.01, conf=0.5))
+### Too many rules
+rules<- apriori(tr, parameter= list(supp=0.05, conf=0.5))
+### 2 rules
+rules<- apriori(tr, parameter= list(supp=0.03, conf=0.5))
+
+inspect(rules)
+### The following is the output
+     lhs                      rhs         support    confidence lift
+[1]  {p12518517}           => {p11604423} 0.03320674 0.9786712  26.479407
+[2]  {p11604423}           => {p12518517} 0.03320674 0.8984578  26.479407
+[3]  {p12518502}           => {p11636550} 0.06663763 0.9998078  14.926187
+[4]  {p11636550}           => {p12518502} 0.06663763 0.9948370  14.926187
+[5]  {p11701521}           => {p11740923} 0.03027994 0.5520785   3.302931
+[6]  {p11742393}           => {p11745837} 0.03051049 0.6238869   5.258032
+[7]  {p11741282}           => {p11741274} 0.04075111 0.5874804   4.249164
+[8]  {p11741282}           => {p11740923} 0.04143638 0.5973594   3.573834
+[9]  {p11742603}           => {p11740923} 0.03630646 0.5331515   3.189696
+[10] {p11740989}           => {p11740964} 0.04437599 0.5724081   4.892573
+[11] {p11742786}           => {p11600749} 0.03627444 0.5001766   4.719263
+[12] {p11599868}           => {p11743201} 0.04195513 0.5087365   3.013949
+[13] {p11742360,p11745837} => {p11743201} 0.03029274 0.5489149   3.251982
+[14] {p11743201,p11745837} => {p11742360} 0.03029274 0.5271957   4.159151
+[15] {p11742360,p11743201} => {p11745837} 0.03029274 0.5381115   4.535129
+[16] {p11741274,p11745837} => {p11740923} 0.03095240 0.6223281   3.723215
+[17] {p11740923,p11745837} => {p11741274} 0.03095240 0.5634837   4.075599
+[18] {p11741274,p11745837} => {p11743201} 0.03045285 0.6122843   3.627406
+[19] {p11743201,p11745837} => {p11741274} 0.03045285 0.5299822   3.833287
+[20] {p11740923,p11745837} => {p11743201} 0.03205395 0.5835374   3.457098
+[21] {p11743201,p11745837} => {p11740923} 0.03205395 0.5578466   3.337440
+[22] {p11611881,p11742736} => {p11743201} 0.03351415 0.5857399   3.470146
+[23] {p11742736,p11743201} => {p11611881} 0.03351415 0.5572950   3.797413
+[24] {p11611881,p11741274} => {p11740923} 0.03134306 0.5796518   3.467894
+[25] {p11611881,p11740923} => {p11741274} 0.03134306 0.5381570   3.892415
+[26] {p11740923,p11741274} => {p11743201} 0.03645376 0.5533197   3.278077
+[27] {p11741274,p11743201} => {p11740923} 0.03645376 0.5860187   3.505986
+[28] {p11740923,p11743201} => {p11741274} 0.03645376 0.5306731   3.838285
+[29] {p11611881,p11741274} => {p11743201} 0.03253428 0.6016819   3.564593
+[30] {p11741274,p11743201} => {p11611881} 0.03253428 0.5230104   3.563797
+[31] {p11611881,p11740923} => {p11743201} 0.03362303 0.5773037   3.420167
+[32] {p11611881,p11686823} => {p11743201} 0.03027994 0.5632595   3.336964
+
+Names of the products
+item_sk		Description
+11599868	Celery
+11600749	Carrots 2L
+11604423	Air Miles
+11611881	Red Cluste
+11636550	Marketing
+11686823	Comp Eggs
+11701521	Mangoes
+11740923	Avocado Ha
+11740964	Strawberri
+11740989	Blueberrie
+11741274	Lemons Lar
+11741282	Limes
+11742360	Green Pepp
+11742393	Pepper Ora
+11742603	Zucchini S
+11742736	Hothouse T
+11742786	Turnip
+11743201	English Cu
+11745837	Red Bell S
+12518502	UNKNOWN PR
+12518517	UNKNOWN PR
+

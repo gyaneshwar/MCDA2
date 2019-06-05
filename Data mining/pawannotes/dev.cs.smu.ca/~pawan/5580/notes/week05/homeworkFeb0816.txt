@@ -1,0 +1,26 @@
+This file appears in MCDA5580's week06 notes.
+Due: Wednesday, Feb 10, 2016 9:00 am
+
+Watch the following three videos. Corresponding history files are
+in this directory.
+CSCI4477-R13-predict-regression: https://youtu.be/6ja36fwy318
+
+CSCI4477-R14-predict-SVM: https://youtu.be/cojVNpyNXPo
+
+CSCI4477-R15-predict-neuralnet: https://youtu.be/yrIfMmw1c_g
+
+Use the videos to train and test using regression, SVM, and
+neural network.
+
+Use the data from homeworkTrain.csv for training
+and homeworkTest.csv for testing.
+
+Write a brief report that shows all the commands you used
+and very brief comments on the accuracy of different techniques.
+
+Please submit only a single pdf (or text) file.
+
+Please follow the following time series video as well. We will
+review it in class later on.
+
+CSCI4477-R16-timeseries: https://youtu.be/IovlzD3uyls

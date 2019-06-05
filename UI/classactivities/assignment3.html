@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css"/>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+<script src="javascript.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" data-id="persistent" data-position="fixed">
+<h1>University Database</h1></div>
+<div data-role="navbar">
+	<ul>
+		<li><a href="#"  class="ui-btn-active ui-state-persist">University Database</a></li>
+	</ul>
+</div>
+<div data-role="content">
+	<label for="name">Name:</label>
+	<input type="text" name="name" id="name" placeholder="Name"/>
+</br>
+	<label for="address">Address:</label>
+	<input type="text" name="address" id="address" placeholder="Address">
+</br>
+	<label for="phone">phone:</label>
+	<input type="text" name="phone" id="phone" placeholder="Phone">
+</br>
+</br>
+</br>
+<button onclick="save_assignment3();">save</button>
+</br>
+<button onclick="delete_assignment3();">Delete</button>
+</br>
+</br>
+	<label for="search">Search:</label>
+	<input type="text" name="search" id="search" placeholder="Search....">
+</br>
+</br>
+<button onclick="search_assignment3();">Search</button>
+</br>
+<button onclick="displayall_assignment3();">Display All</button>
+</br>
+</br>
+<table id="data" border="1">
+
+</table>
+</div>
+<div data-role="footer" data-id="persistent" data-position="fixed">
+<h1> Cross-platform mobile app demo. Developed by Gyaneshwar.</h1>
+</div>
+</div>
+</body>
+</html>

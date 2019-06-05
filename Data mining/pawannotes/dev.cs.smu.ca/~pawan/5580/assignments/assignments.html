@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>M.Sc. CDA - Data Mining Assignments</title>
+</head>
+<body>
+<center><h1>M.Sc. CDA - Data Mining Assignments</h1></center>
+<hr>
+<h3>These assignments are for Dr. Lingras' part of the course. They must be submitted through brightspace. Any assignments that are emailed will be deleted without reading.</h3>
+<h3>Other instructors: Shameer Iqbal (Python), Sreejata Chatterjee (text mining), Chris Malloy (for deep learning) will give you separate assignments and submission instructions.</h3>
+
+<h3>Your assignments will not be marked until you have submitted the
+	<br>
+	<a href="lingrasTeachingNDA.pdf"> non-disclosure agreement</a>
+	<br>
+	There is a submission link on brightspace for NDA. Please do not email your NDA.
+</h3>
+
+<h2>Unless otherwise stated, please submit a single pdf or text file. Archives (zip, rar, tar.gz, etc.) or word processor files (doc, docx, odf, etc.) will not be accepted.</h2>
+<hr>
+<a name="1" id="1"><h2>Assignment #1: Clustering of customers and products</h2></a>
+
+Cluster the customers and products for the <b>online retail dataset (DO NOT USE Sobeys Dataset)</b>.
+<p>We want to cluster customers based on:</p>
+<ul>
+	<li>number of products bought</li>
+	<li>number of distinct products bought</li>
+	<li>revenues</li>
+	<li>number of visits</li>
+	<li>additional attributes that you think are appropriate</li>
+</ul>
+<p>We want to cluster products based on:</p>
+<ul>
+	<li>number of distinct customers who buy the product</li>
+	<li>revenues</li>
+	<li>number of visits in which the product is bought</li>
+	<li>additional attributes that you think are appropriate</li>
+</ul>
+
+<p>
+As part of the process, we may find outliers, which may lead to some data cleaning.
+You should submit a report of your findings that
+may be beneficial to the business owner in understanding
+the nature of customers.
+The report should also briefly outline the data
+cleaning and preparation.
+</p>
+
+<p>Suggested detailed algorithm and report contents:</p>
+<ol>
+<li>
+Make sure that your data does not have values that are
+too high or too low. You can find these values with the
+help of max and min functions in a spreadsheet. You could
+also look at the distributions of each attributes through R
+or spreadsheet.
+If you choose to delete some records, please describe
+how you found the outliers and what were the values.
+</li>
+<li>
+Once all the values are in reasonable ranges, normalize
+them so that no values are larger than 100.
+You have to be careful with such a normalization.
+</li>
+<li>
+Experiment with different number of clusters using simple K-means
+in R. I would suggest using 5, 10, 15 as number of clusters.
+Clustering may help you further identify outlying objects.
+If you go further and find the optimal number of clusters,
+that will be even better, especially if you can justify your
+answer.
+</li>
+<li>
+When you are presenting the results use the centroid
+data produced by R. You may also plot the cluster
+distribution by varying X and Y values in R.
+Show only those graphs that are more meaningful.
+</li>
+</ol>
+<a href="assign1clusteringSample.txt">Link to a sample session based on Sobey dataset of clustering using revenue and number of baskets in which the products appear.  The session is captured as it progressed.  It may include some of the commands that were wrong and were subsequently corrected. </a>
+<h5>
+	Please use this sample session as a guideline instead of following it literally.
+	Using your judgement instead of blindly following instructions is
+	an important trait.
+	Creativity with justification is encouraged.
+	Make sure that you use the online retail dataset (not Sobeys Dataset)
+</h5>
+<p>
+<b>Note for submission:</b> Submit a pdf (no word processor files)
+file describing your data processing efforts and analysis.
+Add the programs, R commands, and queries in appendix.
+</p>
+
+
+
+</tr></td>
+</table>
+<hr />
+<a name="3" id="3"><h2>Assignment #2: Classification with car data</h2></a>
+<p>
+Use different classification algorithms and tune the parameters to predict the acceptibility of a car using the
+<a href="car.data">car data (this is a link to the car data)</a>
+<h2>Here is a <a href= "assign2historySonarClassify.r">sample classification session</a> on <a href= "sonar.all-data">sonar data</a></h2>
+<h5>
+	Please use this sample session as a guideline instead of following it literally.
+	Using your judgement instead of blindly following instructions is
+	an important trait.
+	Creativity with justification is encouraged.
+</h5>
+<p>
+If you just follow minimal steps from the sample session and write a report that explains your understanding
+of each of the classifications using meaningful figures and tables:
+<ul>
+	<li>drawing a part of the tree</li>
+	<li>listing some of the rules</li>
+	<li>accuracy, recall, AUC</li>
+</ul>
+you will be marked out of 80 (since all the computing steps are already written down for you).
+Please note that the sample session may not have all the evaluations for all the models. The sample session is for a dataset
+with two classes. There are some notes for working with multiclass problems.
+In order to be marked out of 100, you may want to play with the various parameters within rpart, randomForest, and caret packages
+with a thorough analysis.
+</p>
+<p>
+<b>Note for submission:</b> Submit a pdf (no word processor files)
+file describing your data processing efforts and analysis.
+</p>
+<hr />
+
+
+<a name="3" id="3"><h2>Assignment #3: Association</h2></a>
+<p>
+Run the association mining on the <b>online retail dataset (DO NOT USE Sobeys Dataset)</b> and
+write a report on meaningful associations at both user level and session level.
+Association can be a computationally intensive process.
+</p>
+<a href="assign3AssociationHistory.txt">Link to a sample session based on Sobey dataset.  The session is captured as it progressed.  It may include some of the commands that were wrong and were subsequently corrected. </a>
+<h5>
+	Please use this sample session as a guideline instead of following it literally.
+	Using your judgement instead of blindly following instructions is
+	an important trait.
+	Creativity with justification is encouraged.
+	Make sure that you use the online retail dataset (not Sobeys Dataset).
+</h5>
+<p>
+
+<p>
+<b>Note for submission:</b> Submit a pdf (no word processor files)
+file describing your data processing efforts and analysis.
+</p>
+<hr />
+<a name="4" id="4"><h2>Assignment #4: Prediction</h2></a>
+<p>
+Time-series prediction of consumption of different products.
+Pick three top-selling products from the electricity dataset
+to predict the daily/hourly/15-minute consumption.
+We will compare statistical, neural network,
+and support vector regression techniques.
+</p>
+<li>
+<a href="assign4PredictionSample.txt">Sample SQL and R code (follow the link).</a>
+</li>
+</ul>
+<h5>
+	Please use this sample session as a guideline instead of following it literally.
+	Using your judgement instead of blindly following instructions is
+	an important trait.
+	Creativity with justification is encouraged.
+</h5>
+<p>
+<b>Note for submission:</b> Submit a pdf (no word processor files)
+file describing your data processing efforts and analysis.
+</p>
+<hr />
+<!--
+<a name="5" id="5"><h2>Assignment #5: Optimization using Genetic Algorithms</h2></a>
+<p>
+Use history for the <a href="assign5optimizationHistory.r">Knapsack problem</a> to setup a Genetic Algorithm
+that divides a group of people into two well balanced teams. Detailed problem statement and plan for the solution:
+<ul>
+	<li>
+	Create a data file that assigns a weight(p_i) to each person (p_i) in the list. The weight signifies how valuable
+	the person in in a team.
+	You should have at least 10 people in the list. Try to push your algorithm to a larger list of say 20 people.
+	</li>
+	<li>
+	Create another data file that assigns a weight(p_i,p_j) to a pair of people p_i and p_j. Positive weight means p_i and p_j work well
+	together in a team. Negative weight means p_i and p_j do not work well together in a team.
+	</li>
+	<li>
+	Your objective function will be to maximize the<br>
+	total_weight = sum(weight(p_i))+sum(weight(p_i,p_j)),<br>
+	where p_i and p_j are in the same team.<br>
+	In addition, the two teams will be balanced both in terms of size and total_weight.
+	</li>
+</ul>
+Examples of files:
+<pre>
+playersWeights.list:
+sachin 10
+ricky 9
+matthew 8
+bhajji 8
+jas 9
+jadeja 6
+Ish 6
+....
+
+teamPlayer.list
+1 2 10
+1 4 10
+3 4 -10
+6 7 -4
+....
+</pre>
+
+<p>
+In the teamPlayer.list the entry "1 2 10" means Sachin and Ricky's team work is weighed at 10.
+While "3 4 -10" means Matthew and Bhajji together in a team will contribute -10 to the team strength.
+If there is no weight associated with a pair in the file teamPlayer.list, you assume the weight to be 0.
+</p>
+
+<p>
+In order to go beyond 90 marks, you shoul expand the problem to three teams. That means you can no longer use the binary GA. If you can do it for three teams, you will be able to use the same algorithm for more than three teams.
+<hr />
+--!>
+
+</body>
+</html>

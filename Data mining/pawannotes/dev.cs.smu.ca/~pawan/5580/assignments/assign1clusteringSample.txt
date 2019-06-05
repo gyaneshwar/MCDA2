@@ -1,0 +1,98 @@
+The following is a sample session of clustering using revenue and number of baskets in which the products appear.  The session is captured as it progressed.  It may include some of the commands that were wrong and were subsequently corrected. 
+
+Extract the revenue and number of baskets from the database.
+
+create table productRevenueBasket as
+SELECT `ITEM_SK`,sum(`SELLING_RETAIL_AMT`) as revenue,
+count(distinct `TRANSACTION_RK`) as baskets from dataset01.sales219
+group by `ITEM_SK`
+
+
+Choose top 2000 products.
+
+
+create table productcluster as
+SELECT * FROM `productRevenueBasket`
+ORDER BY `productRevenueBasket`.`revenue`  DESC
+limit 0,2000
+
+
+Download the productcluster.csv and cluster using the following R command:
+
+
+prod<-read.csv("productcluster.csv",header=F)
+prod
+summary(prod)
+km = kmeans(prod[,2:3],5,150)
+km$centers
+km$size
+km = kmeans(prod[2:nrow(prod),2:3],5,150)
+km$size
+summary(prod)
+summary(prod[2:2000,])
+summary(prod[9:2000,])
+summary(prod[10:2000,])
+nprod=prod
+nprod[,2]=nprod[,2]/mean(nprod[,2])
+nprod[,2]=nprod[,3]/mean(nprod[,3])
+summary(nprod)
+nprod=prod
+nprod[,2]=nprod[,2]/mean(nprod[,2])
+nprod[,3]=nprod[,3]/mean(nprod[,3])
+summary(nprod)
+km = kmeans(nprod[,2:3],5,150)
+km$center
+km$size
+source("clusterAccessories.r")
+withinSSrange(nprod[,2:3], 3, 15, 150)
+
+
+Here, the clusterAccessories.r file is as follows:
+
+withinSSrange <- function(data,low,high,maxIter)
+{
+   withinss = array(0, dim=c(high-low+1));
+   for(i in low:high)
+   {
+      withinss[i-low+1] <- kmeans(data, i, maxIter)$tot.withinss
+   }
+   withinss
+}
+
+
+
+
+# We have decided that the numbers of clusters is 6
+
+nkm=kmeans(nprod[,2:3],6,150)
+nkm$centers
+nkm$size
+
+# Denormalize the centers
+realCenters = nkm$centers
+
+# Note that 1 in realCenters matches 2 in nprod
+realCenters[,1]=mean(prod[,2])*realCenters[,1]
+realCenters[,2]=mean(prod[,3])*realCenters[,2]
+
+realCenters
+
+#column bind the columns
+clusteredProd=cbind(prod,nkm$cluster)
+
+#Make sure that the binding is proper
+clusteredProd[1:20,]
+nkm$cluster[1:20]
+
+#write the clustered products out
+write(t(clusteredProd),file="clusteredProducts.csv",sep=',',ncolumns=4)
+
+
+Import clusteredProducts.csv into your database. Join it with dataset01.items.
+
+SELECT p . * , i.ITEM_ENG_DESC AS name
+FROM  `clusteredProducts` AS p, dataset01.items AS i
+WHERE p.`ITEM_SK` = i.`ITEM_SK` 
+
+
+Use the realCenters, clusteredProducts and the product names to write profiles for each cluster.

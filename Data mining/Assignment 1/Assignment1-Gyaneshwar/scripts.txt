@@ -1,0 +1,26 @@
+Product: report_Product.csv
+
+select
+StockCode,
+sum(UnitPrice*Quantity) as total_revenue,
+count(distinct InvoiceNo) as baskets,
+count(distinct CustomerID) as distinct_customers,
+avg(UnitPrice) as Average_Price
+from OnlineRetail
+group by StockCode
+order by total_revenue desc
+Limit 2000;
+
+
+Customer: report_Customer.csv
+
+select
+CustomerID,
+sum(UnitPrice*Quantity) as total_revenue,
+count(distinct InvoiceNo) as baskets,
+count(distinct StockCode) as distinct_stock,
+avg(UnitPrice) as Average_Price
+from OnlineRetail
+group by CustomerID
+order by total_revenue desc
+Limit 2000;

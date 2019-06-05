@@ -1,0 +1,848 @@
+RETAILER_SITE_CODE,RETAILER_CODE,RTL_ADDRESS1,RTL_ADDRESS2,RTL_CITY,RTL_PROV_STATE,RTL_POSTAL_ZONE,RTL_COUNTRY_CODE,RTL_ACTIVITY_STATUS_CODE,RETAILER_SITE_START_DATE
+20001,1189,1117 Franklin Blvd,,Winnipeg,Manitoba,R2C 0M5,1004,1,2008-03-12 0:00
+20002,1189,"45, rue Atwater",,MontrÃ©al,QuÃ©bec,H2T 9K8,1004,1,2010-09-08 0:00
+20003,1189,328 Hodgson Road,,Fredericton,New Brunswick,E3B 2H2,1004,1,2009-12-12 0:00
+20004,1190,"2425, rue Peel",,MontrÃ©al,QuÃ©bec,H4G 3T4,1004,1,2011-09-14 0:00
+20005,1190,34 8th Avenue,,Sudbury,Ontario,M5V 1G5,1004,1,2011-09-12 0:00
+20006,1190,"45, rue Stanley",,Tremblant,QuÃ©bec,H5Y 2S9,1004,1,2010-03-08 0:00
+20007,1190,23 Louis Riel Drive,,Regina,Saskatchewan,S1J 3C5,1004,1,2012-07-10 0:00
+20008,1191,56 North Way Street,,Whitehorse,Yukon,Y2K 6R0,1004,1,2012-02-10 0:00
+20009,1192,601 Bay Street,,Toronto,Ontario,M2M 7K8,1004,1,2010-10-13 0:00
+20010,1192,"Suite 1500, 802 Docklands Street",,Vancouver,British Columbia,V6E 3Z3,1004,1,2007-09-12 0:00
+20011,1192,"Suite 125, 129th Street",,Vancouver,British Columbia,V1E 4R6,1004,1,2011-11-09 0:00
+20012,1192,"Suite 5034, 34 Broadway Street",,Vancouver,British Columbia,V5R 1W3,1004,1,2009-10-15 0:00
+20013,1192,"18, rue Rousseau",,MontrÃ©al,QuÃ©bec,H2T 2J6,1004,1,2009-01-12 0:00
+20014,1193,"500, Place d'Armes",Bureau 1061,MontrÃ©al,QuÃ©bec,H2Y 2W2,1004,1,2009-06-12 0:00
+20015,1194,82 Creekside Drive,,Victoria,British Columbia,V10 6T5,1004,1,2009-12-12 0:00
+20016,1194,"48, rue Leduc",,Hull,QuÃ©bec,J8Y 3Z5,1004,1,2010-01-12 0:00
+20017,1195,"203, boul. Guy",,MontrÃ©al,QuÃ©bec,H3T 8L4,1004,1,2013-02-05 0:00
+20018,1195,"603, 42 Bloor St.",,Toronto,Ontario,M1R 4K3,1004,1,2010-09-14 0:00
+20019,1195,9755 Riverside Drive,,Ottawa,Ontario,K1G 4Z0,1004,1,2012-06-23 0:00
+20020,1195,2200 Argyle Street,,Halifax,Nova Scotia,B3J 9S2,1004,1,2007-03-12 0:00
+20021,1195,56 Bear Road,,Dawson Creek,British Columbia,U5I 4F1,1004,1,2011-09-13 0:00
+20022,1196,"Suite 12, 801 Dundas Street",,Toronto,Ontario,M8Y 4K8,1004,1,2008-04-14 0:00
+20023,1196,"2, boul. Sherbrooke",,MontrÃ©al,QuÃ©bec,H2Y 4R4,1004,1,2009-04-12 0:00
+20024,1196,897 Esplanade Street,,Toronto,Ontario,M2Z 4K1,1004,1,2010-01-15 0:00
+20025,1196,"Suite 1331, 123 Main St.",,Ottawa,Ontario,K1F 2R2,1004,1,2008-08-20 0:00
+20026,1196,362 Duckworth Street,,St. John's,Newfoundland,A1C 6H9,1004,1,2009-10-15 0:00
+20027,1197,"87, 2399 Somerset Avenue",,Toronto,Ontario,M2P 4F6,1004,1,2011-12-21 0:00
+20028,1197,"1501, 306 6th Avenue",,Winnipeg,Manitoba,R6Y 4T5,1004,1,2011-11-16 0:00
+20029,1197,"Suite 1000, 56 King Street",,Toronto,Ontario,M2M 6J7,1004,1,2007-01-13 0:00
+20030,1197,"90, 56 Cumberland Street",,Toronto,Ontario,M3R 4K8,1004,1,2012-02-17 0:00
+20031,1198,292 Queen Street,,Charlottetown,Prince Edward Island,C1A 6E8,1004,1,2007-12-12 0:00
+20032,1144,RÃ¶ntgenstraÃŸe 90,3. TÃ_r rechts,Frankfurt,Hessen,D-60314,6002,0,
+20033,1147,MathildenstraÃŸe 67,,Berlin,Berlin,D-12051,6002,1,2011-09-12 0:00
+20034,1147,PorschestraÃŸe 54,,Bonn,Nordrhein-Westfalen,D-53225,6002,1,2012-01-16 0:00
+20035,1147,Nordseedamm 3,,Hamburg,Hamburg,D-22609,6002,1,2013-01-08 0:00
+20036,1148,KulmseestraÃŸe 25,,Berlin,Berlin,D-14109,6002,1,2013-07-16 0:00
+20037,1148,KaiserstraÃŸe 37,,Dresden,Sachsen,D-01219,6002,1,2008-10-12 0:00
+20038,1148,Karolingerplatz 14,,DÃ_sseldorf,Nordrhein-Westfalen,D-40595,6002,1,2009-10-12 0:00
+20039,1148,Linke UferstraÃŸe 73,,Frankfurt,Hessen,D-65989,6002,1,2013-01-11 0:00
+20040,1148,MoorstraÃŸe 7,,Hamburg,Hamburg,D-20539,6002,1,2012-09-18 0:00
+20041,1148,Otto-Karl-StraÃŸe 89,,Mannheim,Baden-WÃ_rttemberg,D-68165,6002,1,2008-04-12 0:00
+20042,1149,JubelstraÃŸe 23,,Berlin,Berlin,D-12527,6002,1,2011-01-10 0:00
+20043,1149,Adenauerufer 105,,Mainz,Rheinland-Pfalz,D-55131,6002,1,2007-06-13 0:00
+20044,1149,Goetheplatz 1,,Frankfurt,Hessen,D-60528,6002,1,2012-01-10 0:00
+20045,1149,Heideweg 18,,Frankfurt,Hessen,D-60433,6002,1,2013-01-15 0:00
+20046,1149,GrotestraÃŸe 40,,Hannover,Niedersachsen,D-30629,6002,1,2008-06-12 0:00
+20047,1150,NestorstraÃŸe 83,,Berlin,Berlin,D-10711,6002,1,2010-11-11 0:00
+20048,1150,LeibnitzstraÃŸe 53,,Kiel,Schleswig-Holstein,D-24113,6002,1,2013-06-20 0:00
+20049,1150,Am Hang 30,,Schwerin,Mecklenburg-Vorpommern,D-19063,6002,1,2012-09-19 0:00
+20050,1150,Lyoner StraÃŸe 14,,Frankfurt,Hessen,D-60386,6002,1,2008-03-13 0:00
+20051,1150,AhornstraÃŸe 82,,Potsdam,Brandenburg,D-14482,6002,1,2008-10-12 0:00
+20052,1151,Pastoratsgasse 7,,Bonn,Nordrhein-Westfalen,D-53121,6002,1,2012-04-12 0:00
+20053,1151,NeÃŸdeichweg 12,,Bremen,Bremen,D-28759,6002,1,2011-04-18 0:00
+20054,1151,Rostocker StraÃŸe 102,,Frankfurt,Hessen,D-60320,6002,1,2010-08-09 0:00
+20055,1151,MÃ_ggenburger StraÃŸe 10,,Hamburg,Hamburg,D-21037,6002,1,2010-06-07 0:00
+20056,1154,Am Mainkai 17,,Frankfurt,Hessen,D-60219,6002,1,2013-06-18 0:00
+20057,1154,Aachener StraÃŸe 6,,SaarbrÃ_cken,Saarland,D-66115,6002,1,2012-12-12 0:00
+20058,1154,UrachstraÃŸe 11,,Freiburg,Baden-WÃ_rttemberg,D-79102,6002,1,2013-07-19 0:00
+20059,1154,Albert-Einstein-StraÃŸe 74,,Erfurt,ThÃ_ringen,D-99089,6002,1,2013-03-07 0:00
+20060,1157,Grubesallee 141,4. Stock,Hamburg,Hamburg,D-22335,6002,1,2012-04-11 0:00
+20061,1158,HÃ_ndelstraÃŸe 81,,Bremen,Bremen,D-28237,6002,1,2012-04-11 0:00
+20062,1158,Hubertusgasse 19,,MÃ_nchen,Bayern,D-80800,6002,1,2009-06-12 0:00
+20063,1147,PlatanenstraÃŸe 41,,Magdeburg,Sachsen-Anhalt,D-39116,6002,1,2009-12-13 0:00
+20067,1199,2479 Broad Street,P.O. Box 827,Hartford,Connecticut,06134-0615,1003,1,2012-03-17 0:00
+20068,1199,6743 Justica Street,,Atlanta,Georgia,30364,1003,1,2011-11-07 0:00
+20069,1199,5873 Wheatland Road,,Baltimore,Maryland,21287,1003,1,2012-09-12 0:00
+20070,1199,4378 Wyse Avenue,,Boston,Massachusetts,2142,1003,1,2012-01-19 0:00
+20071,1199,834 Longfellow Avenue,,Buffalo,New York,14169,1003,0,
+20072,1199,87 First Avenue,,New York,New York,10035,1003,1,2011-11-18 0:00
+20073,1200,843 24th Street West,,Billings,Montana,59102,1003,1,2010-01-12 0:00
+20074,1200,2845 South Second Street,,Lincoln,Nebraska,68538,1003,1,2009-09-13 0:00
+20075,1201,1902 Lancaster Street,,New York,New York,10039,1003,1,2008-08-12 0:00
+20076,1201,762 Main Street,,New York,New York,10021,1003,1,2012-06-13 0:00
+20077,1201,8831 Hetson Avenue,,New York,New York,10053,1003,1,2011-10-14 0:00
+20078,1201,10423 Kenwood Road,Suite 221,Cincinnati,Ohio,45265,1003,1,2007-06-12 0:00
+20079,1201,386 Governor Street,,Providence,Rhode Island,2967,1003,1,2011-02-09 0:00
+20080,1202,332 South Main Street,P.O. Box 224,Hanover,New Hampshire,3761,1003,0,
+20081,1203,795 South Jefferson,Suite 210,Springfield,Missouri,65856,1003,1,2008-10-15 0:00
+20082,1203,743 Fraine Barracks Road,,Bismark,North Dakota,58537,1003,1,2009-02-12 0:00
+20083,1203,582 NE Tomahawk Island Drive,,Portland,Oregon,97295,1003,1,2011-06-14 0:00
+20084,1204,7543 South Carson Street,,Carson City,Nevada,89763,1003,1,2011-11-08 0:00
+20085,1204,738 Stoney Road,,Las Vegas,Nevada,89118,1003,1,2010-10-11 0:00
+20086,1204,702 North Meridian,Suite 220,Oklahoma City,Oklahoma,73186,1003,1,2011-11-07 0:00
+20087,1204,1210 Somerville Avenue,P.O. Box 4390,Chattanooga,Tennessee,37405-0955,1003,1,2012-12-14 0:00
+20088,1204,83 Nirson Road,,Houston,Texas,77112,1003,1,2009-01-12 0:00
+20089,1204,628 Prince Street,,Alexandria,Virginia,22323,1003,1,2012-10-09 0:00
+20090,1204,17432 Aurora Ave. N.,,Seattle,Washington,98154,1003,1,2011-05-16 0:00
+20091,1204,1733 Christopher Street,,Charleston,West Virginia,25301-1299,1003,1,2012-10-11 0:00
+20092,1205,1809 Tusalane Avenue,,Miami,Florida,33021,1003,1,2012-02-06 0:00
+20093,1205,804 Fawcett Road,,Atlanta,Georgia,30352,1003,1,2009-07-12 0:00
+20094,1205,832 Vensa Crescent,,Dallas,Texas,75293,1003,1,2012-07-11 0:00
+20095,1206,932 Ohmey Avenue,,Los Angeles,California,90211,1003,1,2007-10-12 0:00
+20096,1206,438 Kelson Road,,Los Angeles,California,90203,1003,1,2008-06-12 0:00
+20097,1206,3410 Selson Avenue,,San Diego,California,92132,1003,1,2007-02-12 0:00
+20098,1206,73 Stanley Avenue,,San Francisco,California,94135,1003,1,2012-07-11 0:00
+20099,1206,37 Raleigh Avenue,,San Francisco,California,94129,1003,1,2008-09-12 0:00
+20100,1195,4830 Princeton,Unit 2,Albuquerque,New Mexico,87186,1003,1,2011-05-10 0:00
+20101,1195,6630 Burnet Road,,Austin,Texas,78769,1003,1,2011-05-09 0:00
+20102,1208,2189 Louisville Road,,Independence,Kentucky,41051,1003,1,2010-11-11 0:00
+20103,1209,1700 George Street,Suite 1B,San Francisco,California,94127,1003,1,2009-02-14 0:00
+20104,1209,121 Dove Street,,Albany,New York,12210,1003,1,2013-01-16 0:00
+20105,1209,36 Burside Street,,New York,New York,10044,1003,1,2007-09-12 0:00
+20106,1209,3728 Lester Avenue,,New York,New York,10041,1003,1,2013-01-16 0:00
+20107,1209,283 Mondela Street,,Dallas,Texas,75287,1003,1,2008-02-13 0:00
+20108,1209,2893 South 700 West,,Salt Lake City,Utah,84146,1003,1,2008-09-12 0:00
+20109,1210,266 S. Christopher Road,,Chapel Hill,North Carolina,27533,1003,1,2008-03-13 0:00
+20110,1210,1488 Orleans Road,P.O. Box 1128,Charleston,South Carolina,29414,1003,1,2013-05-07 0:00
+20111,1211,172 N. Cave Creek Road,,Phoenix,Arizona,85052,1003,1,2007-05-15 0:00
+20112,1211,518 Colombe Street,,San Francisco,California,94133,1003,1,2010-05-19 0:00
+20113,1212,19 Cavicta Avenue,,Boulder,Colorado,80332,1003,1,2010-07-13 0:00
+20114,1213,3278 Crest Avenue,,Houston,Texas,77009,1003,1,2010-04-23 0:00
+20115,1213,272 Main Street,,Montpelier,Vermont,5611,1003,1,2010-08-20 0:00
+20116,1213,938 Jasmine Crescent,,Richmond,Virginia,23234,1003,1,2010-08-16 0:00
+20117,1213,325 Wayside Street,,Seattle,Washington,98140,1003,1,2008-07-19 0:00
+20118,1213,433 West Broadway,,Madison,Wisconsin,53722,1003,1,2010-08-20 0:00
+20119,1213,4881 East Second Street,,Casper,Wyoming,82645,1003,1,2010-08-13 0:00
+20120,1214,2015 Charles Drive,,Dover,Delaware,19935,1003,1,2013-01-11 0:00
+20121,1214,16823 Atlantic Blvd.,,Jacksonville,Florida,32287,1003,0,
+20122,1214,235 Salter Street,,Miami,Florida,33025,1003,1,2012-07-14 0:00
+20123,1214,6392 Lakewood Avenue,,Atlanta,Georgia,30371,1003,0,
+20124,1215,2103 Ashbury Street,P.O. Box 2167,Los Angeles,California,90060,1003,1,2011-11-18 0:00
+20125,1215,333 Ustaff Way,Suite 67,San Diego,California,92120,1003,1,2008-10-12 0:00
+20126,1215,76 Young Avenue,,Denver,Colorado,80287,1003,1,2009-10-12 0:00
+20127,1215,"3411 Champlain Street, NW",Suite 110,Washington,DC,20032,1003,1,2012-07-12 0:00
+20128,1215,1378 Toley Acres Road,,Miami,Florida,33024,1003,1,2011-07-21 0:00
+20129,1215,2384 Klein Street,,Atlanta,Georgia,30367,1003,1,2010-06-07 0:00
+20130,1216,35 Independence Drive,,Birmingham,Alabama,35215,1003,1,2007-06-12 0:00
+20131,1216,937 Hilson Crescent,Suite 2-4,Boston,Massachusetts,2141,1003,1,2007-12-12 0:00
+20132,1216,992 Delton Crescent,,Boston,Massachusetts,2139,1003,1,2007-06-12 0:00
+20133,1216,5890 McCoy Drive,,Jackson,Mississippi,39286,1003,1,2010-01-13 0:00
+20134,1216,809 Main Street,,Lake Placid,New York,12976,1003,1,2009-01-14 0:00
+20135,1217,231 Linson Street,,Boulder,Colorado,80341,1003,1,2013-02-05 0:00
+20136,1217,832 Rourson Avenue,,Denver,Colorado,80289,1003,1,2010-10-13 0:00
+20137,1217,357 Trent Road,,Salt Lake City,Utah,84147,1003,1,2010-07-14 0:00
+20138,1218,832 Mill Avenue,Unit 17,Phoenix,Arizona,85055,1003,1,2011-11-08 0:00
+20139,1218,7773 Green Park Road,,Tucson,Arizona,85713,1003,1,2012-01-09 0:00
+20140,1218,3866 Point Circle,,Little Rock,Arkansas,72287,1003,1,2012-04-12 0:00
+20141,1218,1201 N. State College Blvd.,,Anaheim,California,92815,1003,1,2008-10-13 0:00
+20142,1218,603 Blueridge Crescent,,Los Angeles,California,90045,1003,1,2010-03-08 0:00
+20143,1218,92 Clark Road,,Las Vegas,Nevada,89123,1003,1,2008-07-12 0:00
+20144,1219,2917 W. Bannock,,Boise,Idaho,83718,1003,1,2011-11-17 0:00
+20145,1219,3211 E. Sherwood Road,Suite 101,Chicago,Illinois,60652,1003,1,2008-04-12 0:00
+20146,1219,2101 West 6th Street,P.O. Box 1172,Indianapolis,Indiana,46240-2015,1003,1,2007-03-12 0:00
+20147,1219,6894 Jefferson,,Detroit,Michigan,48296,1003,1,2007-05-14 0:00
+20148,1219,1655 East Superior Street,,Duluth,Minnesota,55810,1003,1,2007-01-12 0:00
+20149,1219,1730 St. Joseph Street,Suite 125,Rapid City,South Dakota,57739,1003,1,2010-11-19 0:00
+20150,1220,1206 Spenard Road,,Anchorage,Alaska,99534,1003,1,2009-04-12 0:00
+20151,1221,1529 Kapahula Avenue,,Honolulu,Hawaii,96857,1003,1,2009-04-13 0:00
+20152,1222,731 Victoria Avenue,,San Diego,California,92112,1003,1,2009-03-13 0:00
+20153,1222,5538 Arapahoe,Suite 10,Boulder,Colorado,80331,1003,0,
+20154,1222,927 Burney Street,,Denver,Colorado,80288,1003,0,
+20155,1223,1290 21st Ave. SW,,Cedar Rapids,Iowa,52421,1003,1,2009-05-19 0:00
+20156,1223,5321 SW. Fairlawn,,Topeka,Kansas,66703,1003,1,2009-02-21 0:00
+20157,1223,295 Farm Road,,Portland,Maine,4112,1003,1,2007-10-16 0:00
+20158,1223,172 Huntington Avenue,,Boston,Massachusetts,2187,1003,1,2011-07-18 0:00
+20159,1223,7332 Atlantic Avenue,,Atlantic City,New Jersey,08401-6399,1003,1,2011-07-14 0:00
+20160,1223,567 Rivington Avenue,,New York,New York,10027,1003,1,2011-10-10 0:00
+20161,1223,463 Bateman Drive,,New York,New York,10037,1003,1,2012-07-14 0:00
+20162,1223,237 Paltrim Road,,New York,New York,10035,1003,1,2012-10-13 0:00
+20163,1223,2219 Fritchey Street,,Philadelphia,Pennsylvania,19176,1003,1,2012-07-18 0:00
+20164,1224,738 Greyling Street,,San Diego,California,92129,1003,1,2007-04-12 0:00
+20165,1224,1623 Elmont Way,,Boulder,Colorado,80339,1003,1,2010-10-11 0:00
+20166,1224,9023 Mainline Road,,Denver,Colorado,80279,1003,1,2010-10-14 0:00
+20167,1224,2845 Elise Drive,P.O. Box 12496,Baton Rouge,Louisiana,70895-5492,1003,1,2012-06-13 0:00
+20195,1101,"49, boul. d'Arcole",Cedex 101,Paris,,F-75004,6001,1,2012-05-08 0:00
+20196,1101,"61, place des Ã‰glantiers",BoÃ®te postale 3478,Paris,,F-75004,6001,1,2009-03-12 0:00
+20197,1101,"12, rue Mulhouse",,Strasbourg,,F-67000,6001,0,
+20198,1115,"22, rue Saint-Jean",,Lyon,,F-69005,6001,1,2008-07-13 0:00
+20199,1115,"34, route de Marseille",,Nice,,F-06200,6001,1,2009-01-12 0:00
+20200,1123,"30, boul. de QuÃ©bec",,OrlÃ©ans,,F-45000,6001,1,2012-03-06 0:00
+20201,1132,"9, rue Sala",,Lyon,,F-69002,6001,1,2011-09-21 0:00
+20202,1132,"2, rue des Ponchettes",,Nice,,F-6300,6001,1,2009-05-12 0:00
+20203,1132,"126, avenue Genier",Cedex 23,Paris,,F-75003,6001,1,2012-10-10 0:00
+20204,1132,"18, rue des Ã‰coliers",Cedex 03,Paris,,F-75015,6001,1,2012-02-06 0:00
+20205,1133,"15, rue Capdeville",,Bordeaux,,F-33000,6001,1,2008-10-12 0:00
+20206,1133,"120, rue Martel",,Chamonix,,F-74400,6001,1,2008-11-12 0:00
+20207,1133,"100, avenue du MarchÃ©",BoÃ®te postale 250,Poitiers,,F-86000,6001,1,2012-04-10 0:00
+20208,1133,"46, voie du MarÃ©chal",,Roubaix,,F-59020,6001,1,2013-01-08 0:00
+20209,1134,"5, rue Vercors",,Grenoble,,F-38000,6001,1,2008-08-12 0:00
+20210,1135,"124, boul. Henri-Ronard",BoÃ®te postale 800,Annecy,,F-74000,6001,1,2009-04-19 0:00
+20211,1135,"27, cours du MÃ©doc",,Bordeaux,,F-33001,6001,1,2009-12-12 0:00
+20212,1135,"45, rue Vaubecour",,Lyon,,F-69002,6001,1,2008-03-12 0:00
+20213,1135,"18, rue St-Denis",Cedex 25,Paris,,F-75018,6001,1,2009-02-21 0:00
+20214,1135,"1, rue Descartes",,Roubaix,,F-59100,6001,1,2009-11-14 0:00
+20215,1137,"1, rue de la Contrescarpe",BoÃ®te postale 8000,Nantes,,F-44000,6001,1,2009-10-12 0:00
+20216,1137,"50, rue de Bagnolet",,Paris,,F-75020,6001,1,2012-06-12 0:00
+20217,1137,"24b, avenue Gustave",,Strasbourg,,F-67100,6001,1,2008-07-13 0:00
+20218,1137,"205, rue Richelieu",,Tours,,F-37020,6001,1,2011-07-11 0:00
+20219,1225,"67, avenue Daumesnil",BoÃ®te postale 16,Marseille,,F-13023,6001,1,2010-05-12 0:00
+20220,1225,"200, boul. des Cerisiers",,Nice,,F-6300,6001,1,2007-06-12 0:00
+20221,1225,"4, rue AndrÃ©-AmpÃ¨re",,OrlÃ©ans,,F-45100,6001,1,2010-10-11 0:00
+20222,1225,"12, rue de Vaneau",Cedex 07,Paris,,F-75007,6001,1,2012-01-09 0:00
+20223,1225,"14, rue MÃ©nilmontant",,Paris,,F-75020,6001,1,2010-01-12 0:00
+20224,1226,Calle Tulum No. 45,Brisas,CancÃºn,Quintana Roo,90890,1020,1,2011-08-15 0:00
+20225,1226,"Oriente 233, No. 341",Industrial Vallejo,Distrito Federal,MÃ©xico,8500,1020,1,2012-05-09 0:00
+20226,1226,Avda. Chapultepec 246-303,Virreyes,Distrito Federal,MÃ©xico,6700,1020,1,2010-08-10 0:00
+20227,1226,Av. PacÃ_fico No. 164,Chapalita,Guadalajara,Jalisco,80480,1020,1,2013-02-08 0:00
+20228,1226,Plaza Federales No. 19,CircunvalaciÃ_n,Puerto Vallarta,Jalisco,70760,1020,1,2011-03-15 0:00
+20229,1227,Francisco MunguÃ_a No. 45,Atahualpa,Monterey,Nuevo LeÃ_n,30530,1020,1,2009-12-12 0:00
+20230,1228,"RÃ_o Rhin 56, Piso 6",Cuauhtemoc,Distrito Federal,MÃ©xico,6500,1020,1,2007-01-13 0:00
+20231,1228,"Tuxpan No. 54, Int. 509",Roma Sur,Distrito Federal,MÃ©xico,6760,1020,1,2012-08-08 0:00
+20232,1228,Cerro de La Libertad 158,Campestre Churubusco,Distrito Federal,MÃ©xico,14320,1020,1,2011-05-12 0:00
+20233,1228,Via. Dr. Gustavo Baz 8000,Tlalnepantla,MÃ©xico City,MÃ©xico,54060,1020,1,2013-01-10 0:00
+20235,1229,1-8 Konohana,Konohana-ku,Osaka-shi,Osaka,554-0005,4011,1,2011-02-08 0:00
+20236,1236,346-126 Nishikamakuracho,Naka-ku,Hiroshima-shi,Hiroshima,730-0048,4011,1,2007-02-13 0:00
+20237,1231,23-1-9 Jingukouen Mae,Koutou-ku,Tokyo,Tokyo,135-0030,4011,1,2012-09-13 0:00
+20238,1231,900-23-564 Kanda Ogawamachi,Chiyoda-ku,Tokyo,Tokyo,101-0052,4011,1,2013-01-11 0:00
+20239,1235,342-1-17 Kansaibashi,Ikuno-ku,Osaka-shi,Osaka,544-0009,4011,1,2009-01-12 0:00
+20240,1229,232-87-515 Nakano,Miyagino-ku,Sendai-shi,Miyagi,983-0013,4011,1,2007-04-13 0:00
+20241,1229,433-17-230 Shimozaki,Hakata-ku,Fukuoka-shi,Fukuoka,812-0027,4011,1,2009-02-13 0:00
+20242,1230,31-14-99 Higashi Ikebukuro,Toshima-ku,Tokyo,Tokyo,170-0013,4011,1,2010-02-09 0:00
+20243,1234,672-321 Kanda Ogawamachi,Chiyoda-ku,Tokyo,Tokyo,101-0026,4011,1,2011-09-21 0:00
+20244,1229,341-31-5 Furuikemachi,Minami-ku,Hiroshima-shi,Hiroshima,730-0000,4011,1,2012-02-10 0:00
+20245,1230,110-981 Hayashicho,Asakita-ku,Hiroshima-shi,Hiroshima,731-0202,4011,1,2010-05-11 0:00
+20246,1230,31-6-61 Tomoshiro,Minami-ku,Hiroshima-shi,Hiroshima,734-0000,4011,1,2013-01-08 0:00
+20247,1230,1-1-1 Hamakubo,Shibuya-ku,Tokyo,Tokyo,150-0004,4011,1,2013-01-11 0:00
+20248,1232,78-98-390 Tennou,Chuou-ku,Fukuoka-shi,Fukuoka,810-0001,4011,1,2012-01-10 0:00
+20249,1232,981-628-582 Fukushima,Fukushima-ku,Osaka-shi,Osaka,553-0003,4011,1,2011-02-07 0:00
+20250,1232,765-789-432 Nakano,Naka-ku,Tokyo,Tokyo,164-0001,4011,1,2012-01-11 0:00
+20251,1232,3-4-2 Hongou,Bunkyo-ku,Tokyo,Tokyo,113-0033,4011,1,2013-01-08 0:00
+20252,1232,553-11-22 Sotokanda,Chiyoda-ku,Tokyo,Tokyo,101-0021,4011,1,2013-01-08 0:00
+20253,1233,452-321-5 Kumaishi,Nishi-ku,Fukuoka-shi,Fukuoka,819-0000,4011,1,2012-04-10 0:00
+20254,1233,20-190-2 Hashizakimachi,Taihaku-ku,Sendai-shi,Miyagi,982-0875,4011,1,2010-12-09 0:00
+20255,1233,876-9-873 Higashiaoyama,Shibuya-ku,Tokyo,Tokyo,150-0003,4011,1,2007-01-12 0:00
+20256,1234,1-8 Miyakojima,Miyakojima-ku,Osaka-shi,Osaka,534-0014,4011,1,2009-11-12 0:00
+20257,1234,11-33-11 Hita,Kita-ku,Osaka-shi,Osaka,530-0000,4011,1,2012-03-17 0:00
+20258,1234,443-21 Kaminagaramachi,Naka-ku,Hiroshima-shi,Hiroshima,730-0013,4011,1,2010-05-17 0:00
+20259,1234,784-55-98 Naniwa,Naniwa-ku,Osaka-shi,Osaka,556-0025,4011,1,2010-05-11 0:00
+20260,1237,Finlandsgatan 20,,Stockholm,,S-114 57,5010,1,2011-03-08 0:00
+20261,1237,Ã…gatan 15,,Arvika,,S-541 10,5010,1,2011-12-14 0:00
+20262,1237,Forsgatan 18,,Karlstad,,S-335 20,5010,1,2012-01-11 0:00
+20263,1237,Gustavsgatan 1,,Ludvika,,S-665 00,5010,1,2011-03-07 0:00
+20264,1237,Ejdergatan 7 B,,Sundsvall,,S-668 90,5010,1,2012-11-08 0:00
+20265,1238,Apoteksgatan 2,,BollnÃ_s,,S-335 85,5010,1,2012-04-10 0:00
+20266,1238,DatavÃ_gen 56,,MalmÃ¶,,S-115 55,5010,1,2010-09-06 0:00
+20267,1238,Eklundsgatan 18,,GÃ¶teborg,,S-411 10,5010,1,2008-04-12 0:00
+20268,1238,GrÃ¶na vÃ_gen 32,,Solna,,S-118 30,5010,1,2013-01-10 0:00
+20269,1137,Ã„ngsgatan 45,,Stockholm,,S-113 54,5010,1,2008-07-12 0:00
+20270,1137,Carl Gustavs VÃ_g 21,,MalmÃ¶,,S-225 11,5010,1,2009-11-14 0:00
+20271,1240,Drottninggatan 21,,MÃ¶lndal,,S-422 67,5010,1,2012-07-18 0:00
+20272,1241,Beets 36,,Beets,,1475 JC,5007,1,2008-07-12 0:00
+20273,1241,Perestraat 1,,Deventer,,7412 BV,5007,1,2011-01-10 0:00
+20274,1241,Laan van Meerdervoort 966,,Den Haag,,2564 AV,5007,1,2012-06-13 0:00
+20275,1241,Kalfjeslaan 47,,Amstelveen,,1181 BN,5007,1,2007-05-12 0:00
+20276,1241,Startbaan 11,,Amstelveen,,1185 XP,5007,1,2013-03-08 0:00
+20277,1242,Noorderspoorsingel 28,,Groningen,,9716 JE,5007,1,2009-06-12 0:00
+20278,1243,Hogehilweg 13,,Amsterdam,,1000 BA,5007,0,
+20279,1243,Spoorstraat 43,,Varsseveld,,7051 CH,5007,1,2007-12-12 0:00
+20280,1244,Westhavenweg 8,,Amsterdam,,1014 BD,5007,1,2011-10-10 0:00
+20281,1244,Westzeedijk 4,,Muiden,,1398 BB,5007,1,2012-02-07 0:00
+20282,1244,Gooiergracht 91,,Laren,,1251 VC,5007,1,2008-09-12 0:00
+20283,1244,Hoofdstraat 150,,Pieterburen,,9968 AH,5007,1,2013-03-07 0:00
+20284,1245,Olde Diek 2,,Laren,,7245 VS,5007,1,2011-12-12 0:00
+20285,1245,Amsterdamsestraatweg 8,,Maarssen,,3604 AA,5007,1,2012-04-11 0:00
+20286,1245,Krayenhoffstraat 11,,Amsterdam,,1018 DE,5007,1,2010-11-08 0:00
+20287,1245,Overschiestraat 19,,Amsterdam,,1062 XC,5007,1,2012-09-12 0:00
+20288,1245,Havenbuurt 12,,Marken,,1156 AL,5007,1,2010-11-08 0:00
+20289,1246,Duivendaal 1,,Wageningen,,6701 AP,5007,1,2009-07-12 0:00
+20290,1246,Voorstraat 37,,Nieuweschans,,9693 EE,5007,1,2011-07-11 0:00
+20291,1246,Stadhouderslaan 18,,Rotterdam,,3051 HG,5007,1,2011-12-12 0:00
+20304,1247,Corso XXII Marzo 69,,Bologna,,I-40101,7006,1,2011-07-13 0:00
+20305,1247,Viale Argonne 61,,Bergamo,,I-24102,7006,1,2011-01-13 0:00
+20306,1247,Via Cherubini 26,,Firenze,,I-50103,7006,1,2011-05-09 0:00
+20307,1247,Via C. Colombo 31,,Milano,,I-20121,7006,1,2012-07-10 0:00
+20308,1247,Piazza Riaffrico 19,,Roma,,I-00106,7006,1,2008-05-12 0:00
+20309,1248,Via Industriale 76,,Torino,,I-10120,7006,1,2010-12-06 0:00
+20310,1248,Corso Umberto II 168,,Genova,,I-16200,7006,1,2013-07-10 0:00
+20311,1248,Via Monte Ceneri 33,,Napoli,,I-80100,7006,1,2012-07-10 0:00
+20312,1248,Corso Matteotti 125,,Roma,,I-00100,7006,1,2013-02-06 0:00
+20313,1249,Viale Romagna 67,,Roma,,I-00103,7006,1,2007-08-12 0:00
+20314,1249,Piazza Doggale 17,,Venezia,,I-30115,7006,1,2013-02-05 0:00
+20315,1250,Corso Buenos Aires 45,,Milano,,I-20125,7006,1,2007-08-12 0:00
+20316,1255,2415 Queen's Ave,,Melbourne,VIC,2088,4016,1,2011-01-13 0:00
+20317,1257,120 Southern Ocean Dr,Unit 16,Brisbane,VIC,3000,4016,1,2012-06-13 0:00
+20318,1255,125 Victoria Road,,Cairns,VIC,3220,4016,1,2011-01-17 0:00
+20319,1255,32 Angora Road,,Perth,NSW,2043,4016,1,2013-01-09 0:00
+20320,1256,14 Phillip St.,26th Floor,Cairns,VIC,3122,4016,1,2011-01-13 0:00
+20321,1255,295 Tall Trees Ave.,23rd Floor,NewCastle,NSW,2154,4016,1,2011-05-09 0:00
+20322,1257,945 St. Kilda Ave.,Level 14,Sydney,VIC,3182,4016,1,2011-01-14 0:00
+20323,1257,219 Queen Victoria Street,Level 10,Melbourne,VIC,3000,4016,1,2013-03-05 0:00
+20324,1257,29 Macquaric St.,# 17,NewCastle,NSW,2000,4016,1,2012-06-12 0:00
+20325,1257,936 Castlereich St.,Level 6,Sydney,NSW,2154,4016,1,2011-01-12 0:00
+20326,1258,"AtlÃ¡ntico, 56",,Barcelona,Barcelona,8002,7019,1,2012-04-14 0:00
+20327,1258,"CÃ_rcega, 89-E",,Barcelona,Barcelona,8005,7019,1,2012-12-13 0:00
+20328,1259,"Latorre, 56",,Barcelona,Barcelona,8002,7019,1,2007-06-12 0:00
+20329,1258,"Arenal, 90",,Bilbao,Vizcaya,48005,7019,1,2007-07-12 0:00
+20330,1258,"Laurel, 2",,LogroÃ±o,La Rioja,26000,7019,1,2012-06-19 0:00
+20331,1259,"San MillÃ¡n, 3-10",,LogroÃ±o,La Rioja,26004,7019,1,2009-11-19 0:00
+20332,1258,"Carrera de Oriente, 58-5",,Madrid,Madrid,28698,7019,1,2010-07-13 0:00
+20333,1259,"NÃºÃ±ez de Balboa, 46",,Madrid,Madrid,28006,7019,1,2007-06-12 0:00
+20334,1259,"Romareda, 24",Edificio La Trompa,Zaragoza,Zaragoza,50009,7019,1,2010-11-09 0:00
+20335,1260,"Alameda Santos, 9876",6o. Andar,SÃ£o Paulo,SP,04571-010,1021,1,2008-11-12 0:00
+20336,1261,Bredgade 33,,KÃ¸benhavn,,DK-1530,5018,1,2010-08-09 0:00
+20337,1137,St. Kongens Vej,,KÃ¸benhavn,,DK-1732,5018,1,2010-01-12 0:00
+20338,1261,Ã…rhusgade 55,,Kolding,,DK-6050,5018,1,2011-09-16 0:00
+20339,1261,H.C. Andersens Gade 91,,Roskilde,,DK-2030,5018,1,2011-03-16 0:00
+20340,1261,Europavej 99,,Aarhus,,DK-8320,5018,1,2010-06-07 0:00
+20341,1261,Bronzevej 18,,BirkerÃ¸d,,DK-2750,5018,1,2012-03-08 0:00
+20342,1268,YrittÃ_jÃ_nkatu 21,,Tampere,,FIN-33900,5022,1,2009-07-12 0:00
+20343,1268,Simontie 1,,Porvoo,,FIN-06100,5022,1,2012-12-14 0:00
+20344,1268,StenbÃ_ckinkatu 9,,Turku,,FIN-28540,5022,1,2012-06-14 0:00
+20345,1268,Kirkkopuistikko 4,,Helsinki,,FIN-00520,5022,1,2011-08-10 0:00
+20346,1268,Mikkolantie 1,,Vantaa,,FIN-01710,5022,1,2008-06-12 0:00
+20347,1270,"56-8, Kamman-Dong",Nam-Ku,Pusan,,608-070,4013,1,2011-09-22 0:00
+20348,1272,"514-3, Daechi-Dong",Kangnam-Ku,Seoul,,135-280,4013,1,2008-06-12 0:00
+20349,1270,"78-1, Do-Dong",Tong-Ku,Taegu,,701-280,4013,1,2009-03-12 0:00
+20350,1270,"987-6, Seocho-Dong",Seocho-Ku,Seoul,,137-070,4013,1,2007-03-20 0:00
+20351,1270,"89-4, Mok-Dong",Chung-Ku,Taejeon,,301-030,4013,1,2013-01-16 0:00
+20352,1271,"56-3, Namchun-Dong",Suyoung-Ku,Pusan,,613-010,4013,1,2007-09-12 0:00
+20353,1271,"997-6, Samsung-Dong",Kangnam-Ku,Seoul,,135-090,4013,1,2011-06-10 0:00
+20354,1271,"103-1, Yangjae-Dong",Seocho-Ku,Seoul,,137-130,4013,1,2011-01-11 0:00
+20355,1271,"78-1, Juahn-Dong",Nam-Ku,Incheon,,401-200,4013,1,2007-02-12 0:00
+20356,1271,"86-7, Gung-Dong",Tong-Ku,Kwangju,,501-010,4013,1,2011-01-21 0:00
+20357,1274,71 Bras Basah Road,,Singapore,,59804,4012,1,2012-07-12 0:00
+20358,1272,1 Cluny Road,,Singapore,,228518,4012,1,2007-07-12 0:00
+20359,1274,51A Cable Car Road,Section 1,Singapore,,68999,4012,1,2012-05-10 0:00
+20360,1272,"244, South Bridge Road",China Town,Singapore,,215524,4012,1,2012-07-10 0:00
+20361,1274,60 Eu Tong Sen Street,,Singapore,,203354,4012,1,2010-07-19 0:00
+20362,1273,"24, Mt Elizabeth",,Singapore,,55515,4012,1,2011-07-14 0:00
+20363,1272,23 Cavenagh Road,,Singapore,,229617,4012,1,2012-08-07 0:00
+20364,1274,2 Bukit Manis Road,,Singapore,,215654,4012,1,2008-12-12 0:00
+20365,1272,214 Dunearn Road,,Singapore,,203022,4012,1,2008-11-12 0:00
+20366,1274,180 Albert Street,,Singapore,,189325,4012,1,2013-03-07 0:00
+20376,1275,No. 59 Yangfangdian Xi,Haidian District,Beijing,,100038,4014,1,2012-04-12 0:00
+20377,1277,No.1 Fuxing Road,,Beijing,,100844,4014,1,2013-01-10 0:00
+20378,1275,No. 133 Shangdong St.,,Chengdu,Sichuan,610016,4014,1,2010-06-14 0:00
+20379,1277,No. 339 Huanshi Dong Road,,Guangzhou,Guangdong,510098,4014,1,2009-02-12 0:00
+20380,1275,No. 371 Huanshi Dong Road,,Guangzhou,Guangdong,510095,4014,1,2012-01-09 0:00
+20381,1276,No. 318 Huancheng Bei Road,,Hangzhou,Zhejiang,310012,4014,1,2012-01-16 0:00
+20382,1275,No. 822 Nanzhen Road,,Shanghai,,200333,4014,1,2009-09-12 0:00
+20383,1277,No. 283 Huaihai Zhong Road,Luwan District,Shanghai,,200001,4014,1,2011-04-13 0:00
+20384,1277,"22/F, Shuian Center",8 Harbour Road,Chaiwan,Hong Kong,,4014,1,2011-08-15 0:00
+20385,1277,No. 18 Xinxing St.,,Zhengzhou,Henan,450052,4014,1,2011-10-10 0:00
+20386,1281,139 Page Street,,London,,NW9 8AA,6009,1,2012-02-08 0:00
+20387,1282,Kelvin House,Talisman Road,Birmingham,West Midlands,B20 3BA,6009,1,2009-10-12 0:00
+20388,1280,The Beeches,14 Church Street,Bristol,Avon,BS9 2JR,6009,1,2008-12-12 0:00
+20389,1280,14 Bath Road,,London,,NW1 1LJ,6009,1,2010-01-12 0:00
+20390,1283,Seaton House,3 Aberford Road,Reading,Berkshire,RG5 3HA,6009,1,2013-03-07 0:00
+20391,1283,1 Cherry Lane,Mole Business Park,London,,SE6 4NR,6009,1,2011-11-08 0:00
+20392,1281,1 Tudor Court,Regent Street,Milton Keynes,Buckinghamshire,MK17 9EA,6009,1,2010-10-12 0:00
+20393,1278,11 The Golf Links,,Southampton,Hampshire,SO30 0PZ,6009,1,2007-04-12 0:00
+20394,1279,202 Llantwit Road,,Oxford,Oxfordshire,MK17 9EA,6009,1,2009-12-13 0:00
+20395,1279,223 Denmark Road,,London,,E13 8DB,6009,1,2009-12-12 0:00
+20396,1283,24 The Lanes,,Brighton,Sussex,BN2 4EL,6009,1,2013-04-11 0:00
+20397,1281,60 Princess Street,,London,,SW9 6SQ,6009,1,2010-07-14 0:00
+20398,1281,62 Ashbourne Road,,Bristol,Avon,BS7 0TR,6009,1,2013-04-12 0:00
+20399,1283,64 Primett Road,,Southampton,Hampshire,SO30 2EB,6009,1,2011-10-13 0:00
+20400,1284,7 Holgate Court,Western Road,Milton Keynes,Buckinghamshire,MK12 5DW,6009,0,
+20401,1282,7 Milford Street,,Southampton,Hampshire,SO30 2NU,6009,1,2012-10-16 0:00
+20402,1281,85 Frampton Street,,London,,SE4 2NU,6009,1,2011-03-07 0:00
+20403,1283,Albany House,20 Gordon Road,Brighton,Sussex,BN2 4DA,6009,1,2011-01-13 0:00
+20404,1278,Bridge Court,21 Bridge Street,Brighton,Sussex,BN2 3AL,6009,1,2007-09-12 0:00
+20405,1278,Canada House,Station Road,London,,E10 5AQ,6009,1,2011-12-12 0:00
+20406,1281,City House,15 City Square,London,,E15 3JR,6009,1,2011-11-09 0:00
+20407,1282,Exchange Court,1 Exchange Square,Brighton,Sussex,BN2 7FG,6009,1,2009-09-12 0:00
+20408,1282,Keyford Court,12 Church Street,Nottingham,Nottinghamshire,NG2 2LB,6009,1,2013-07-09 0:00
+20409,1278,The Valley Centre,Friar Street,London,,E17 3DP,6009,1,2011-12-14 0:00
+20410,1280,Vanwall Business Park,601 Warwick Road,Reading,Berkshire,RG7 5NF,6009,1,2009-06-12 0:00
+20411,1288,Grafenau 12,,Basel,,CH-4051,6008,1,2012-06-19 0:00
+20412,1137,"56, route de GenÃ¨ve",,Lausanne,,CH-1047,6008,1,2012-06-19 0:00
+20413,1137,Piazza dell'Indipendenza 14,,Bellinzona,,CH-6556,6008,1,2011-01-17 0:00
+20414,1285,Neuhof 5,,Kirchberg,,CH-3422,6008,1,2011-11-09 0:00
+20415,1288,KirchstraÃŸe 66,,ZÃ_rich,,CH-8057,6008,1,2012-06-12 0:00
+20416,1137,Via Lago 51,,Lugano,,CH-6922,6008,1,2011-06-14 0:00
+20417,1286,"66, rue du PrÃ©sident",,GenÃ¨ve,,CH-1245,6008,1,2012-07-10 0:00
+20418,1286,"123, rue des Chocolatiers",,Lausanne,,CH-1078,6008,1,2011-01-20 0:00
+20419,1286,"65, rue de l'Horloge",,Fribourg,,CH-1769,6008,1,2013-01-10 0:00
+20420,1286,"89, route d'Evian",,GenÃ¨ve,,CH-1244,6008,1,2012-01-13 0:00
+20421,1288,Treichlerstrasse 124,,ZÃ_rich,,CH-8057,6008,1,2013-01-10 0:00
+20422,1286,SiwerdstraÃŸe 104,,ZÃ_rich,,CH-8050,6008,1,2013-06-13 0:00
+20423,1288,HauptstraÃŸe 53,,St. Gallen,,CH-9006,6008,1,2011-01-12 0:00
+20424,1289,Leuvensesteenweg 325,,Zaventem,,B-1930,6017,1,2008-07-12 0:00
+20425,1289,Hospitaalstraat 17,,Sint-Niklaas,,B-9100,6017,1,2008-04-20 0:00
+20426,1289,Waaistraat 6,,Leuven,,B-3000,6017,1,2009-09-23 0:00
+20427,1289,Pelikaanstraat 70,,Antwerpen,,B-2018,6017,1,2012-01-19 0:00
+20428,1293,Avenue des 9 Provinces 3,B 109,Bruxelles,,B-1083,6017,1,2008-05-15 0:00
+20429,1294,Rue de la Grande Campagne 3,,Arlon,,B-6700,6017,1,2012-08-11 0:00
+20430,1294,Rue Des DÃ©portÃ©s 143,,Arlon,,B-6700,6017,1,2011-05-18 0:00
+20431,1294,Rue Sainte VÃ©ronique 2 D,,LiÃ¨ge,,B-4000,6017,1,2012-03-13 0:00
+20432,1294,Bld Zoe Drion,,Charleroi,,B-6000,6017,1,2010-09-06 0:00
+20433,1294,Bld De La SauveniÃ¨re 12,,LiÃ¨ge,,B-4000,6017,1,2010-08-18 0:00
+20434,1311,HofstraÃŸe 77,,Wien,,A-1210,7005,1,2012-04-12 0:00
+20435,1311,Steinweg 4,,Kottingbrunn,,A-2442,7005,1,2012-05-15 0:00
+20436,1311,SpielstraÃŸe 22,,Ternitz,,A-2630,7005,1,2010-07-13 0:00
+20437,1311,Linzer StraÃŸe 35,,Loorsdorf,,A-3382,7005,1,2009-10-12 0:00
+20438,1311,Im Weingarten 90,,Graz,,A-8010,7005,1,2012-02-06 0:00
+20439,1309,HÃ_ttenstraÃŸe 87,,Klosterneuburg,,A-3400,7005,1,2009-06-12 0:00
+20440,1309,HauptstraÃŸe 85,,Linz,,A-4015,7005,1,2012-04-14 0:00
+20441,1309,Amselweg 8,,Innsbruck,,A-6020,7005,1,2008-06-12 0:00
+20442,1309,Hasengasse 38,,Ischgl,,A-6561,7005,1,2012-01-13 0:00
+20443,1310,HammerstraÃŸe 26,,Innsbruck,,A-6020,7005,1,2009-08-12 0:00
+20445,1313,23 Nowlan Drive,,Moncton,New Brunswick,E1A 2A7,1004,1,2009-11-12 0:00
+20446,1314,"160, rue Moureaux",Bureau 410,QuÃ©bec,QuÃ©bec,G1B 3L5,1004,1,2010-09-07 0:00
+20447,1315,"3000, 58 Merivale Road",,Ottawa,Ontario,K0T 9R0,1004,0,
+20448,1316,"Suite 23, 180 McKercher Drive",,Regina,Saskatchewan,S6J 3G0,1004,1,2012-03-07 0:00
+20449,1317,23 Blackcomb Way,,Whistler,British Columbia,V6T 1Y8,1004,1,2008-02-12 0:00
+20450,1318,12 9th Street,,Winnipeg,Manitoba,R3R 3T4,1004,1,2008-04-15 0:00
+20451,1319,1690 Barrington Street,,Halifax,Nova Scotia,B3C 2M8,1004,1,2010-10-19 0:00
+20452,1320,"1250 Bow Trail, SW",,Calgary,Alberta,T3E 2V9,1004,1,2008-05-12 0:00
+20453,1321,11 Moose Road,,Banff,Alberta,T4V 1D4,1004,1,2007-11-20 0:00
+20454,1322,34a 45th Avenue,,London,Ontario,M5B 3E4,1004,1,2011-01-19 0:00
+20455,1323,"Suite 1200, 25 53rd Street.",,Edmonton,Alberta,T9G 1W3,1004,1,2012-07-10 0:00
+20456,1324,1599 Marine Drive,,West Vancouver,British Columbia,V6V 8Z3,1004,1,2010-07-12 0:00
+20457,1325,"5403, rue CÃ´te-des-Neiges",,MontrÃ©al,QuÃ©bec,H3J 5I6,1004,1,2013-07-11 0:00
+20458,1326,2400 Granville Street,,Vancouver,British Columbia,V6E 3D9,1004,1,2008-12-12 0:00
+20459,1327,MÃ_rzenstraÃŸe 8,,NÃ_rnberg,,D-90451,6002,1,2009-09-12 0:00
+20460,1328,Lyoner StraÃŸe 99,,Aachen,Bayern,D-44143,6002,1,2010-07-14 0:00
+20461,1329,Wolf-Maier-StraÃŸe 28,,Passau,,D-94034,6002,1,2012-09-13 0:00
+20462,1330,Gutenbergring 52,,RÃ_sselsheim,,D-65428,6002,1,2010-12-06 0:00
+20463,1331,Wabenweg 9,,Arnsberg,,D-59756,6002,1,2011-10-12 0:00
+20464,1332,BahnstraÃŸe 15,,Ulm,,D-89081,6002,1,2009-09-13 0:00
+20465,1333,Kirchengasse 18,,MÃ_nchen,Bayern,D-80760,6002,1,2012-09-13 0:00
+20466,1334,VolmestraÃŸe 77,,Bochum,,D-44867,6002,1,2009-02-12 0:00
+20467,1335,Graf-Otto-Platz 5-6,,DÃ_sseldorf,,D-40213,6002,1,2007-05-13 0:00
+20468,1336,Hattinger StraÃŸe 112,Postfach 56 12,Karlsruhe,,D-76131,6002,1,2009-07-13 0:00
+20469,1337,SchillerstraÃŸe 98,,Bonn,,D-53179,6002,1,2013-05-14 0:00
+20470,1338,KlÃ¶ppelgasse 1,,Dortmund,,D-44413,6002,1,2011-03-15 0:00
+20471,1339,Frauenhofer StraÃŸe 34,,Stuttgart,,D-70186,6002,1,2011-03-08 0:00
+20472,1340,Carl-Benz-StraÃŸe 103,,Duisburg,,D-47166,6002,1,2011-03-16 0:00
+20473,1341,Hofzeile 17,,Frankfurt,,D-60299,6002,0,
+20474,1342,Weimarer StraÃŸe 35,,Frankfurt,,D-60529,6002,0,
+20475,1343,KranstraÃŸe 11,,DÃ_sseldorf,,D-40489,6002,0,
+20476,1344,Walpurgisplatz 11,,Hannover,,D-30627,6002,1,2008-01-13 0:00
+20477,1345,RiedstraÃŸe 12,,Krefeld,,D-47807,6002,1,2010-07-16 0:00
+20478,1346,Am Nordend 67,,Landshut,,D-84028,6002,1,2010-08-13 0:00
+20479,1347,Weimarer StraÃŸe 47,,Frankfurt,,D-60529,6002,1,2012-05-17 0:00
+20480,1348,Waldweg 3,,MÃ_nchen,Bayern,D-80995,6002,1,2013-01-16 0:00
+20481,1349,PrinzenstraÃŸe 47,Postfach 10,Solingen,,D-42697,6002,1,2007-08-13 0:00
+20482,1350,301 Cumberland Avenue,,Edmonton,Alberta,T3G 6Y6,1004,1,2012-02-06 0:00
+20483,1351,16 Creekside Road,,Kelowna,British Columbia,V09 2E9,1004,1,2013-01-10 0:00
+20484,1352,901 Kingsmere Road,,Kingston,Ontario,M9K 2P4,1004,1,2010-03-08 0:00
+20485,1353,27 Taskely Road,RR #1,Peace River,Alberta,T9O 2W2,1004,1,2008-02-12 0:00
+20486,1354,2311 10th Street West,,Thunder Bay,Ontario,K8T 5M5,1004,1,2012-01-10 0:00
+20487,1355,"400, 11 Patrick Street",,Trenton,Ontario,K8V 4B2,1004,1,2010-09-08 0:00
+20488,1356,Kurze Meile 125,,Bremen,Bremen,D-28219,6002,1,2012-09-15 0:00
+20489,1357,Lortzingplatz 18,,KÃ¶ln,,D-51149,6002,1,2010-05-10 0:00
+20490,1358,Mollenbachstr. 28,,Leonberg,,D-71299,6002,1,2010-08-13 0:00
+20491,1359,6630 Burnet Road,,Austin,Texas,78769,1003,1,2010-07-12 0:00
+20492,1360,Av. De la RepÃºblica 103,Cuauhtemoc,San NicolÃ¡s de los Garza,Nuevo LeÃ_n,66450,1020,1,2008-06-12 0:00
+20493,1361,Av. Industrias Pte. No. 3,Industrial Poniente,Monterey,Nuevo LeÃ_n,64410,1020,1,2007-11-12 0:00
+20494,1362,Blvd. Adolfo LÃ_pez Mateos 3210,Julian de ObregÃ_n,LeÃ_n,Guanajuato,37290,1020,1,2010-02-09 0:00
+20495,1363,Bosques de Ciruelos No. 1,Bosques de las Lomas,Distrito Federal,MÃ©xico,11700,1020,1,2009-10-13 0:00
+20496,1364,Calz. De Tlalpan No. 1520,Villa de CortÃ©s,Distrito Federal,MÃ©xico,4120,1020,1,2009-07-12 0:00
+20497,1365,Calz. San Pedro 900 Sur,Fuentes del Valle,San Pedro Garza GarcÃ_a,Nuevo LeÃ_n,66220,1020,1,2009-08-12 0:00
+20498,1366,LÃ_pez Cotilla No. 429,Centro,Guadalajara,Jalisco,80120,1020,1,2007-08-12 0:00
+20499,1367,"143, avenue Toupin",,Avignon,,F-84000,6001,1,2012-03-06 0:00
+20500,1368,"148, rue Parmesan",,AngoulÃªme,,F-16000,6001,1,2008-02-14 0:00
+20501,1369,"18, rue Bouvier",BoÃ®te postale 8500,Paris,,F-75011,6001,1,2009-04-15 0:00
+20502,1370,"20, ave Teysseire",BoÃ®te postale 1046,Grenoble,,F-38100,6001,0,
+20503,1371,"202, boul. Hollande",,ChambÃ©ry,,F-73000,6001,1,2012-06-23 0:00
+20504,1372,"21, place des PrÃ©s",,Valence,,F-26000,6001,1,2008-04-12 0:00
+20505,1373,"23, rue Saussure",,Paris,,F-75017,6001,1,2013-05-10 0:00
+20506,1374,"275, rue de l'Ã‰toile",BoÃ®te postale 560,Paris,,F-75017,6001,1,2010-02-09 0:00
+20507,1375,"3, boulevard de l'OpÃ©ra",Cedex 08,Paris,,F-75008,6001,1,2011-06-06 0:00
+20508,1376,"3, rue des Deux Ponts",,Paris,,F-75004,6001,1,2012-05-08 0:00
+20509,1377,"3, rue Pascal",,Chamonix,,F-74400,6001,1,2011-09-15 0:00
+20510,1378,"30, boul. Diderot",Cedex 23,Paris,,F-75012,6001,1,2010-02-09 0:00
+20511,1379,"32, place de la Poste",,Caen,,F-14032,6001,1,2007-09-12 0:00
+20512,1380,"33, rue Mercadet",BoÃ®te postale 180,Rennes,,F-35032,6001,1,2013-01-09 0:00
+20513,1381,"34, boul. Pictaves",BoÃ®te postale 380,Poitiers,,F-86008,6001,1,2010-03-08 0:00
+20514,1382,"38, rue Nationale",Cedex 04,Paris,,F-75013,6001,1,2010-10-11 0:00
+20515,1383,"40, montÃ©e Gilard",,Calais,,F-62140,6001,1,2010-10-21 0:00
+20516,1384,"41, rue Saint-Jacques",BoÃ®te postale 2134,Paris,,F-75013,6001,1,2012-05-08 0:00
+20517,1385,"45, cours Jean-JaurÃ¨s",,Grenoble,,F-38000,6001,1,2008-03-12 0:00
+20518,1386,"61, boul. du VÃ©lodrome",,Rouen,,F-76380,6001,1,2007-04-12 0:00
+20519,1387,"7, rue Marchand",,La Rochelle,,F-17000,6001,1,2008-04-12 0:00
+20520,1388,"88, route de Vertou",,Nantes,,F-44000,6001,1,2011-06-06 0:00
+20521,1389,5528 Government Blvd.,P.O. Box 4299,Mobile,Alabama,36695,1003,1,2012-10-09 0:00
+20522,1390,2460 Fairview Avenue,,Montgomery,Alabama,36110,1003,1,2007-11-12 0:00
+20523,1391,1146 Sunset St,,Juneau,Alaska,99821,1003,1,2010-10-14 0:00
+20524,1392,10442 N. Mulberry Place,,Tuscon,Arizona,85711,1003,1,2011-06-15 0:00
+20525,1393,1290 Kirk Road,,Fayetteville,Arkansas,72717,1003,1,2012-06-15 0:00
+20526,1394,2410 Grand View Drive,,Berkeley,California,94712,1003,1,2009-08-12 0:00
+20527,1395,12773 La Grange Ave.,,Los Angeles,California,90034,1003,1,2009-12-12 0:00
+20528,1396,1201 Water Street,,Oakland,California,94611,1003,1,2011-11-14 0:00
+20529,1397,3001 E. Orange Grove Blvd.,,Pasadena,California,91121,1003,1,2009-02-12 0:00
+20530,1398,3253 Nuttman Street,,San Clara,California,95067,1003,1,2009-12-12 0:00
+20531,1399,6754 Wawona Street,Suite 105,San Francisco,California,94155,1003,1,2011-11-08 0:00
+20532,1400,1255 Treat Avenue,,San Francisco,California,94132,1003,0,
+20533,1401,5388 N. Academy Blvd.,,Colorado Springs,Colorado,80925,1003,1,2007-04-12 0:00
+20534,1402,158 S. Ogden Street,,Denver,Colorado,80286,1003,1,2011-11-17 0:00
+20535,1403,2230 Connecticut Avenue,,Norwalk,Connecticut,6874,1003,1,2010-10-14 0:00
+20536,1404,2211 Connecticut Ave.,Suite 210,Washington,DC,20057,1003,1,2013-03-06 0:00
+20537,1405,138 Murphy Road,,Wilmington,Delaware,19821,1003,1,2009-05-12 0:00
+20538,1406,10003 South Orange Blossom Trail,,Orlando,Florida,32812,1003,1,2009-02-13 0:00
+20539,1407,1903 Garber Drive,,Tallahassee,Florida,32378,1003,1,2013-04-11 0:00
+20540,1408,3684 Bull Street,,Savannah,Georgia,31412,1003,1,2011-07-15 0:00
+20541,1409,1520 Ala Moana Blvd.,,Honolulu,Hawaii,96824,1003,1,2008-06-16 0:00
+20542,1410,511 W. 37th Street,,Boise,Idaho,83732,1003,1,2008-03-12 0:00
+20543,1411,2845 Fullerton Avenue,Suite 320,Chicago,Illinois,60614-1978,1003,1,2012-06-14 0:00
+20544,1412,4430 Stevenson Drive,P.O. Box 3571,Springfield,Illinois,62705-0777,1003,1,2009-07-12 0:00
+20545,1413,1837 Manderly Drive,,Bloomington,Indiana,47420,1003,1,2012-06-14 0:00
+20546,1414,3823 Douglas Avenue,Unit 3,Des Moines,Iowa,50367,1003,1,2010-12-13 0:00
+20547,1415,2856 E. Lincoln,,Wichita,Kansas,67298,1003,1,2011-11-07 0:00
+20548,1416,438 East Short Street,P.O. Box 6521,Lexington,Kentucky,40582,1003,1,2012-06-12 0:00
+20549,1417,233 Fort Street,,Bangor,Maine,4463,1003,1,2012-05-16 0:00
+20550,1418,1332 Crabbs Branch Way,Suite 200,Rockville,Maryland,20866,1003,1,2010-07-14 0:00
+20551,1419,912 Cambridge Street,,Burlington,Massachusetts,1823,1003,1,2008-08-13 0:00
+20552,1420,786 Fifth Street,,Grand Rapids,Michigan,49504-5211,1003,1,2013-06-21 0:00
+20553,1421,432 Oakcrest Ave.,,Saint Paul,Minnesota,55131,1003,1,2010-11-10 0:00
+20554,1422,262 Courthouse Square,,Oxford,Mississippi,38665,1003,1,2011-02-10 0:00
+20555,1423,12036 Manchester Road,,St. Louis,Missouri,63131,1003,1,2009-11-14 0:00
+20556,1424,113 North Last Chance Gulch,,Helena,Montana,59633,1003,1,2008-10-13 0:00
+20557,1425,2843 Elm Street,P.O. Box 675,Manchester,New Hampshire,3186,1003,1,2010-11-10 0:00
+20558,1426,843 Harper Street,Suite 304,Newark,New Jersey,7196,1003,1,2011-01-13 0:00
+20559,1427,128 Nassau Street,,Princeton,New Jersey,8583,1003,1,2009-06-15 0:00
+20560,1428,2130 Flatbush Avenue,,Brooklyn,New York,11241,1003,1,2012-01-18 0:00
+20561,1429,574 E 10th Street,,New York,New York,10028,1003,1,2008-06-12 0:00
+20562,1430,488 West 57 Street,Suite 1002,New York,New York,10020,1003,1,2010-11-12 0:00
+20563,1431,2133 York Avenue,Suite 1010,New York,New York,10022,1003,1,2010-11-09 0:00
+20564,1432,78 Van Auker Street,,Rochester,New York,14616,1003,1,2009-06-14 0:00
+20565,1433,17433 Granite Street,P.O. Box 68432,Charlotte,North Carolina,28247-9878,1003,1,2011-03-10 0:00
+20566,1434,5743 Royal Troon Drive,,Raleigh,North Carolina,27611,1003,1,2011-09-21 0:00
+20567,1435,3255 Payne Avenue,,Cleveland,Ohio,44121,1003,1,2007-09-12 0:00
+20568,1436,1106 South Ludlow Alley,,Columbus,Ohio,43296,1003,1,2012-02-07 0:00
+20569,1437,15882 NE Glisan Street,,Portland,Oregon,97239,1003,1,2011-11-16 0:00
+20570,1438,786 5th Street,,Harrisburg,Pennsylvania,17122,1003,0,
+20571,1439,12010 Crittenden Street,,Philadelphia,Pennsylvania,19122,1003,1,2010-11-11 0:00
+20572,1440,3723 Broad River Road,,Columbia,South Carolina,29286,1003,1,2010-03-09 0:00
+20573,1441,296 Harbor Town Square,,Memphis,Tennessee,38112,1003,1,2011-05-17 0:00
+20574,1442,9332 S. Staples,P.O. Box 1832,Corpus Christi,Texas,78435,1003,1,2008-12-14 0:00
+20575,1443,5863 Starcrest,,Dallas,Texas,75296,1003,1,2009-06-14 0:00
+20576,1444,8834 Broadway,,San Antonio,Texas,78221,1003,1,2007-09-13 0:00
+20577,1445,6723 South Laburnum Ave.,,Richmond,Virginia,23245,1003,1,2007-01-12 0:00
+20578,1446,17232 South Washington,P.O. Box 223,Tacoma,Washington,98409-7654,1003,1,2011-05-10 0:00
+20579,1447,1209 W. Florida St.,,Milwaukee,Wisconsin,53210,1003,1,2009-04-12 0:00
+20580,1448,5869 Polk Avenue,,Cheyenne,Wyoming,82032,1003,1,2011-05-10 0:00
+20581,1449,Silvaweg 3,,Frankfurt,,D-65936,6002,1,2010-08-09 0:00
+20582,1450,592-115-229 Azabujuban,,Minato-ku,Tokyo,677-0149,4011,1,2011-11-09 0:00
+20583,1451,993-1-541 Jotou,Jotou-ku,Osaka-shi,Osaka,489-3269,4011,1,2010-12-09 0:00
+20584,1452,452-321-5 Kumaishi,Kita-ku,Fukuoka-shi,Fukuoka,178-9654,4011,1,2010-12-08 0:00
+20585,1453,1-6-15 Kokubuncho,Aoba-ku,Sendai-shi,Miyagi,759-9468,4011,1,2011-03-07 0:00
+20586,1454,781-671 Nishihakata,Kitahakata-ku,Fukuoka-shi,Fukuoka,968-4126,4011,1,2011-06-13 0:00
+20587,1455,188-785 Abeno,Abeno-ku,Osaka-shi,Osaka,183-1297,4011,1,2007-11-12 0:00
+20588,1456,111-44-877 Higashi Ikebukuro,,Toshima-ku,Tokyo,591-3000,4011,1,2012-01-09 0:00
+20589,1457,891-21-697 Kitaroppongi,,Minato-ku,Tokyo,439-0215,4011,1,2010-01-12 0:00
+20590,1458,422-6-109 Oyodo,Oyodo-ku,Osaka-shi,Osaka,507-1777,4011,1,2012-09-18 0:00
+20591,1459,443-21 Kaminagaramachi,Nakano-ku,Hiroshima-shi,Hiroshima,989-5789,4011,1,2010-10-12 0:00
+20592,1460,7-9-100 Asakusa,,Taito-ku,Tokyo,153-9587,4011,1,2010-02-11 0:00
+20593,1461,6-2-6 Toranomon,,Suginami-ku,Tokyo,359-3144,4011,1,2010-02-11 0:00
+20594,1462,563-549-213 Hyakubancho,Izumi-ku,Sendai-shi,Miyagi,126-4358,4011,1,2009-03-12 0:00
+20595,1463,500 Minami 385 jo Nishi 23 chome,Toyohira-ku,Sapporo-shi,Hokkaido,623-9874,4011,0,
+20596,1464,781-14-29 Jingu Mae,,Shibuya-ku,Tokyo,831-7199,4011,0,
+20597,1465,342-1-17 Kansaibashi,Ikuno-ku,Osaka-shi,Osaka,587-0009,4011,1,2012-01-16 0:00
+20598,1466,453-310 Kanda Ogawamachi,,Chiyoda-ku,Tokyo,358-2522,4011,1,2007-07-12 0:00
+20599,1467,259-741-638 Ueno,,Taito-ku,Tokyo,279-1547,4011,1,2009-07-13 0:00
+20600,1468,784-55-98 Naniwa,Naniwa-ku,Osaka-shi,Osaka,254-5147,4011,1,2013-03-05 0:00
+20601,1469,42-102-988 Kyobashi,,Chuo-ku,Tokyo,777-5436,4011,1,2007-03-12 0:00
+20602,1470,188-785 Abeno,Abeno-ku,Osaka-shi,Osaka,183-1297,4011,1,2007-08-12 0:00
+20603,1471,10-345-5 Ueno,,Taito-ku,Tokyo,961-1351,4011,1,2007-03-12 0:00
+20604,1472,16-459-378 Yamashiro,Johoku-ku,Hiroshima-shi,Hiroshima,658-3796,4011,1,2010-07-13 0:00
+20605,1473,659-777-3 Fukutome,Fukutome-ku,Osaka-shi,Osaka,121-7799,4011,0,
+20606,1474,"93-89-87, Shitenno",Shitenno-ku,Fukuoka-shi,Fukuoka,115-6112,4011,1,2013-07-16 0:00
+20607,1475,585-666-874 Nanba,Nanba-ku,Osaka-shi,Osaka,997-3322,4011,1,2009-10-12 0:00
+20608,1476,552-478 Nanzan,Minami-ku,Otake-shi,Hiroshima,692-4433,4011,1,2010-03-08 0:00
+20609,1477,1520 Scarborough Way,Level 5,Geelong,WA,6000,4016,1,2011-01-18 0:00
+20610,1478,679 Pacific Hwy,Unit 3,St. Kilda,QLD,4558,4016,1,2012-01-19 0:00
+20611,1479,250 St. Georges Terrace,10th Floor,Melbourne,WA,6000,4016,1,2011-01-11 0:00
+20612,1480,140 North Coast Dr.,Level 19,Cairns,QLD,4870,4016,1,2012-06-14 0:00
+20613,1481,121 Elizabeth Ave.,"Suite 2, Level 9",Brisbane,WA,6000,4016,1,2011-01-11 0:00
+20614,1482,4400 Kildairne Rd,3rd Floor,Perth,QLD,4000,4016,1,2011-01-11 0:00
+20615,1483,910 Winton Ave,# 3,St. Leonards,TAS,7000,4016,1,2011-03-09 0:00
+20616,1484,496 Walter Way,# 15,Perth,TAS,7000,4016,1,2011-01-12 0:00
+20617,1485,98 River Rd.,,Sydney,QLD,4870,4016,1,2011-01-20 0:00
+20618,1486,6520 Alexander Street,5th Floor,St. Kilda,VIC,3220,4016,1,2011-01-17 0:00
+20619,1487,HauptstraÃŸe 96,,Wien,,A-1210,7005,1,2010-07-13 0:00
+20620,1488,WebereistraÃŸe 6,,Ternitz,,A-2630,7005,1,2013-05-07 0:00
+20621,1489,LÃ¶ffelgasse 34,,Klosterneuburg,,A-3400,7005,1,2011-08-19 0:00
+20622,1490,HauptstraÃŸe 8,,Linz,,A-4020,7005,1,2008-03-12 0:00
+20623,1491,MÃ_hlstraÃŸe 26,,Ischgl,,A-6561,7005,1,2007-01-12 0:00
+20624,1492,Bergweg 11,,Graz,,A-8010,7005,1,2008-06-12 0:00
+20625,1493,PlÃ_ddemanngasse 103,,Graz,,A-8010,7005,1,2008-10-12 0:00
+20626,1494,KaiserhofstraÃŸe 65,,Klagenfurt,,A-9023,7005,1,2008-02-12 0:00
+20627,1495,BlumenstraÃŸe 77,,Arnoldstein,,A-9601,7005,1,2010-07-13 0:00
+20628,1496,Kunstlaan 46,,Brussel,,B-1000,6017,1,2010-07-13 0:00
+20629,1497,Transcontinentaalweg 12,,Antwerpen,,B-2030,6017,1,2008-08-13 0:00
+20630,1498,DrÃ¨ve Richelle 161,Waterloo Office Park,Waterloo,,B-1410,6017,1,2007-11-12 0:00
+20631,1499,Quai Des Charbonnages 76,,Bruxelles,,B-1080,6017,1,2013-04-12 0:00
+20632,1500,Rue De GenÃ¨ve 4,,Bruxelles,,B-1140,6017,1,2013-01-12 0:00
+20633,1501,Rue du Bosquet 2,,Louvain-La-Neuve,,B-1348,6017,1,2008-11-22 0:00
+20634,1502,"Av. Raja Gabalglia, 24",Conj. 12,Belo Horizonte,MG,67891-987,1021,1,2009-11-12 0:00
+20635,1503,"Rua Dr. JoÃ£o Colin, 1299",Conj. 167,FlorianÃ_polis,SC,88034-000,1021,1,2008-04-12 0:00
+20636,1504,"Avenida Paulista, 87",10 Andar,SÃ£o Paulo,SP,04007-900,1021,1,2010-07-15 0:00
+20637,1505,"Rua Machado de Assis, 1987",2o. Andar,Porto Alegre,RS,55230-333,1021,1,2012-01-13 0:00
+20638,1506,"Av. Presidente Wilson, 9999",10 Andar,Rio de Janeiro,RJ,20031-050,1021,1,2013-07-17 0:00
+20639,1507,"Rua Estados Unidos, 998",TÃ©rreo,SÃ£o Paulo,SP,05120-900,1021,1,2008-09-12 0:00
+20640,1508,"Av. Rio Branco, 15",Sala 10,Rio de Janeiro,RJ,20031-050,1021,1,2008-10-12 0:00
+20641,1509,"Rua Texeira de Freitas, 1248",6 Andar,Rio de Janeiro,RJ,20031-050,1021,1,2012-01-13 0:00
+20642,1510,No.88 Zhong Shan Road,,Harbin,Helongjiang,150049,4014,1,2009-11-12 0:00
+20643,1511,No.41-1 Qian Fu Shan Dong Road,,Jinan,Shangdong,250014,4014,1,2007-10-13 0:00
+20644,1512,58 Xinhua Street,,Huhehaote,Inner Mongolia,170095,4014,1,2011-01-12 0:00
+20645,1513,No. 245 Chang Zhong Road,,Shanghai,,200434,4014,1,2010-04-12 0:00
+20646,1514,"223 Xikang Riad, Jing An District",,Shanghai,,200040,4014,1,2011-03-14 0:00
+20647,1515,No.99 ZhongShan Road,,Shanghai,,200023,4014,1,2008-12-13 0:00
+20648,1516,No.300 Tian Lin Road,,Shaoxing,Zhejiang,312000,4014,1,2009-03-12 0:00
+20649,1517,No1. Wu Di Cheng Street,,Tongluowan,Hong Kong,,4014,1,2007-09-12 0:00
+20650,1518,St. Kongens Vej,,KÃ¸benhavn,,DK-1732,5018,1,2008-08-12 0:00
+20651,1519,Ã…byhÃ¸jvej 15,,Ã…byhÃ¸j,,DK-8230,5018,1,2010-06-08 0:00
+20652,1520,Industriparken 44,,Herning,,DK-5789,5018,1,2010-03-08 0:00
+20653,1521,Vejlevej 100,,Ballerup,,DK-3570,5018,1,2010-03-09 0:00
+20654,1522,Lautruppark 76,,Aarhus,,DK-8245,5018,1,2008-02-12 0:00
+20655,1523,Silkeborgsvej 214,,Randers,,DK-7900,5018,1,2007-08-22 0:00
+20656,1524,Nytorvet 1,,Odense,,DK-5260,5018,1,2007-12-12 0:00
+20657,1525,Randersvej 34,,Silkeborg,,DK-9100,5018,1,2012-03-09 0:00
+20658,1526,Dronningens AllÃ© 23,,Give,,DK-5198,5018,1,2009-02-15 0:00
+20659,1527,Transformervej 14,,Aalborg,,DK-9702,5018,1,2007-01-12 0:00
+20660,1528,Vibevej 23,,Aabenraa,,DK-4810,5018,1,2012-02-10 0:00
+20661,1529,Sarankulmankatu 20,,Kemi,,FIN-94600,5022,1,2008-12-12 0:00
+20662,1530,Indolantie 16,,Kuopio,,FIN-72320,5022,1,2008-03-12 0:00
+20663,1531,Lokomonkatu 3,,Pori,,FIN-28540,5022,1,2008-02-13 0:00
+20664,1532,Kruunuvuorenkatu 4,,Lieksa,,FIN-81700,5022,1,2011-06-07 0:00
+20665,1533,Vetokuja 4,,Kajaani,,FIN-87700,5022,1,2010-10-12 0:00
+20666,1534,Meritullinkatu 13,,Parainen,,FIN-21600,5022,1,2008-02-12 0:00
+20667,1535,Kristianinkatu 2,,Salo,,FIN-24100,5022,1,2007-05-12 0:00
+20668,1536,Via Legnano 150,,Bergamo,,I-24101,7006,1,2007-01-12 0:00
+20669,1537,Via Antica 23,,Firenze,,I-50102,7006,1,2009-01-12 0:00
+20670,1538,Via Archimede 7,,Genova,,I-16100,7006,1,2008-01-12 0:00
+20671,1539,Corso Sempione 121,,Milano,,I-20122,7006,1,2008-04-12 0:00
+20672,1540,Via Settala 28,,Napoli,,I-80100,7006,1,2007-11-12 0:00
+20673,1541,Via Torino 20,,Roma,,I-00103,7006,1,2012-05-09 0:00
+20674,1542,Via Battisti 34,,Roma,,I-00105,7006,1,2010-04-13 0:00
+20675,1543,Via Gonzaga 21,,Torino,,I-10111,7006,1,2013-05-08 0:00
+20676,1544,Via Teodosio 15,,Venezia,,I-30101,7006,1,2013-01-15 0:00
+20677,1545,Via Turati 45,,Torino,,I-10113,7006,1,2012-06-13 0:00
+20678,1546,Via Sant Ambrogio 13,,Milano,,I-20124,7006,1,2010-10-11 0:00
+20679,1547,"514-3, Daechi-Dong",Kangnam-Ku,Seoul,,135-280,4013,1,2010-01-12 0:00
+20680,1548,"123-3,Shingil-Dong",Youngdeungpo-Ku,Seoul,,150-050,4013,1,2012-06-13 0:00
+20681,1549,"12-23, Shinchun-Dong",Songpa-Ku,Seoul,,138-240,4013,1,2009-07-12 0:00
+20682,1550,"234-6, Namsan-Dong",Chung-Ku,Taegu,,700-440,4013,1,2010-02-09 0:00
+20683,1551,"16-7, Songnai-Dong",Sosa-Ku,Pucheon,Kyungki-Do,422-040,4013,1,2007-09-13 0:00
+20684,1552,"23-9, Hyosung-Dong",Kyeyang-Ku,Incheon,,407-040,4013,1,2012-03-06 0:00
+20685,1553,"879-99, Bumil-Dong",Dong-Ku,Pusan,,601-060,4013,1,2011-08-08 0:00
+20686,1554,"91-1, Noksan-Dong",Kangs-Ku,Pusan,,618-210,4013,1,2007-10-14 0:00
+20687,1555,"30-7, Kuwan-Dong",Chung-Ku,Taejeon,,301-218,4013,1,2013-04-10 0:00
+20688,1556,"45-1, Sinpyung-Dong",Saha-Ku,Pusan,,604-030,4013,1,2008-08-12 0:00
+20689,1557,Hogehilweg 13,,Amsterdam,,1000 BA,5007,1,2011-07-11 0:00
+20690,1558,Bilderdijkstraat 33,,Steenwijk,,8331 PS,5007,1,2012-02-07 0:00
+20691,1559,Oosterstraat 5,,Schagen,,1741 GH,5007,1,2009-03-12 0:00
+20692,1560,Van IJsendijkstraat 190,,Purmerend,,1442 LC,5007,1,2013-01-09 0:00
+20693,1561,Kneppelhoutweg 8,,Oosterbeek,,6862 BP,5007,1,2011-03-14 0:00
+20694,1562,"Abdijcomplex, toren 1",,Middelburg,,4331 BP,5007,1,2009-12-12 0:00
+20695,1563,Oude Maasstraat 90,,Maastricht,,6229 BD,5007,1,2012-04-18 0:00
+20696,1564,De Grutto 25,,Dedemsvaart,,7701 KX,5007,1,2008-07-12 0:00
+20697,1565,"Gebouw ""De Coener""",,Amsterdam,,1062 XD,5007,1,2012-05-09 0:00
+20698,1566,De Kwartel 6,,Dronten,,8251 MS,5007,1,2009-01-12 0:00
+20699,1567,p/a De Grote Club,,Amsterdam,,1012 NX,5007,1,2010-11-08 0:00
+20700,1568,Van Goghstraat 10,,St-Maartensvlotbrug,,1753 BE,5007,0,
+20701,1569,"Paseo MarÃ_timo, 78",,Barcelona,Barcelona,8005,7019,1,2012-05-15 0:00
+20702,1570,"Ondarreta, 84",,Bilbao,Vizcaya,48002,7019,1,2011-04-12 0:00
+20703,1571,"MarquÃ©s de San Esteban, 4",,GijÃ_n,Asturias,33002,7019,1,2008-05-12 0:00
+20704,1572,"Huesca, 88",Bajo,LogroÃ±o,La Rioja,26004,7019,1,2010-07-15 0:00
+20705,1573,Edifico Mantilla,"HerrerÃ_as, 56-7",Madrid,Madrid,28005,7019,1,2009-09-14 0:00
+20706,1574,"Avenida ReuniÃ_n, 230",,Zaragoza,Zaragoza,60780,7019,1,2010-12-07 0:00
+20707,1575,"99, rue des Laitiers",,Lausanne,,CH-1039,6008,1,2012-03-17 0:00
+20708,1576,"78, rue Guillaume Tel",,GenÃ¨ve,,CH-1268,6008,1,2011-01-21 0:00
+20709,1577,"45, route de Fribourg",,GenÃ¨ve,,CH-1245,6008,1,2011-06-17 0:00
+20710,1578,Viale dei Quattro Venti 57,,Locarno,,CH-6612,6008,1,2012-03-07 0:00
+20711,1579,RiedstraÃŸe 21,,Dietikon,,CH-8953,6008,1,2011-01-20 0:00
+20712,1580,BeundenstraÃŸe 26,,Wangen,,CH-4705,6008,1,2012-03-06 0:00
+20713,1581,Via Lago 51,,Lugano,,CH-6922,6008,1,2012-01-13 0:00
+20714,1582,"7, place de l'HÃ´tel de Ville",,Lausanne,,CH-1080,6008,1,2012-03-08 0:00
+20715,1583,LerzenstraÃŸe 24,,Burgdorf,,CH-3401,6008,1,2011-03-10 0:00
+20716,1584,"97, route des Organisations",,GenÃ¨ve,,CH-1294,6008,0,
+20717,1585,"8, rue des Ã‰coles",,Fribourg,,CH-1712,6008,1,2011-03-08 0:00
+20718,1586,"7, route de l'Italie",,Fribourg,,CH-1743,6008,1,2011-01-18 0:00
+20719,1587,Strehlgasse 6,,Engelburg,,CH-9032,6008,1,2011-01-11 0:00
+20720,1588,FlughafenstraÃŸe 1,,Basel,,CH-4030,6008,1,2011-01-21 0:00
+20721,1589,FlorhofstraÃŸe 7,,Aargau,,CH-5000,6008,1,2012-04-21 0:00
+20722,1590,Via Ponti 7,,Luino,,CH-6533,6008,0,
+20723,1591,"56, avenue du bon sens",,Fribourg,,CH-1717,6008,1,2013-04-09 0:00
+20724,1592,BachtelstraÃŸe 43,,Aarau,,CH-5001,6008,1,2011-01-12 0:00
+20725,1593,BahnhofstraÃŸe 8,,GÃ_mligen,,CH-3073,6008,1,2012-01-12 0:00
+20726,1594,Via Brezza 12,,Luino,,CH-6531,6008,1,2011-01-21 0:00
+20727,1595,500 Orchard Road,,Singapore,,205021,4012,1,2011-12-13 0:00
+20728,1596,10 Coleman Street,,Singapore,,179854,4012,1,2012-06-14 0:00
+20729,1597,"2 Stamford Road,",,Singapore,,187985,4012,1,2007-08-13 0:00
+20730,1598,103 Siloso Road,,Singapore,,205859,4012,1,2009-09-12 0:00
+20731,1599,39 Scotts Road,,Singapore,,228325,4012,1,2007-01-12 0:00
+20732,1600,9 Raffles Boulevard,,Singapore,,157458,4012,1,2007-10-13 0:00
+20733,1601,87 Coleman Street,Section 1,Singapore,,325985,4012,1,2012-06-16 0:00
+20734,1602,121 Prinsep Street,,Singapore,,202588,4012,1,2007-07-12 0:00
+20735,1603,15 Scotts Road,,Singapore,,148978,4012,1,2013-03-14 0:00
+20736,1604,14 Bath Road,,London,,NW1 1LJ,6009,1,2008-01-12 0:00
+20737,1605,10 Boundary Way,,London,,N1 6DG,6009,1,2010-03-09 0:00
+20738,1606,11 High Street,,London,,E7 8EZ,6009,1,2009-02-12 0:00
+20739,1607,11 Staine Road,,Reading,Berkshire,RG4 8RF,6009,1,2013-01-09 0:00
+20740,1608,12 York Place,,Reading,Berkshire,RG4 5JP,6009,1,2009-02-12 0:00
+20741,1609,16 Crown Hill,,Milton Keynes,Buckinghamshire,MK12 5JW,6009,1,2013-04-11 0:00
+20742,1610,20 Booth Lane,,Oxford,Oxfordshire,OX4 4YW,6009,1,2010-10-15 0:00
+20743,1611,25 Long Road,,Oxford,Oxfordshire,OX4 1LJ,6009,1,2009-11-19 0:00
+20744,1612,26 Willoughby Road,,Reading,Berkshire,RG4 7BD,6009,1,2010-10-21 0:00
+20745,1613,28 Pottergate,,Milton Keynes,Buckinghamshire,MK17 0PR,6009,1,2009-01-14 0:00
+20746,1614,44 Great Victoria Street,,Birmingham,West Midlands,B29 5DW,6009,1,2008-05-12 0:00
+20747,1615,33 Elm Street,,Telford,Shropshire,TZ3 4BW,6009,1,2007-11-12 0:00
+20748,1616,421 North Road,,Luton,Bedfordshire,LU3 1EP,6009,1,2012-01-12 0:00
+20749,1617,49 Victoria Road,,Oxford,Oxfordshire,OX4 4QL,6009,1,2007-05-13 0:00
+20750,1618,9 Heath Lane,,Bristol,Avon,BS9 1AQ,6009,0,
+20751,1619,95 Great Clarendon Street,,Oxford,Oxfordshire,OX4 4YW,6009,1,2010-07-15 0:00
+20752,1620,Booth House,Ingrave Road,London,,N11 1BD,6009,1,2007-10-12 0:00
+20753,1621,Caradog House,St Andrews Place,Brighton,Sussex,BN1 5BD,6009,1,2007-09-12 0:00
+20754,1622,Craven House,16 St Andrew Square,London,,N1 0DP,6009,1,2010-10-20 0:00
+20755,1623,Gade House,Waterside Drive,Bristol,Avon,BS6 5LF,6009,1,2012-04-14 0:00
+20756,1624,Isis House,London Road,Reading,Berkshire,RG6 7JR,6009,1,2010-03-08 0:00
+20757,1625,Melton House,Chainbridge Road,Nottingham,Nottinghamshire,NG7 1AR,6009,1,2012-03-08 0:00
+20758,1626,HammarvÃ_gen 11,,Helsingborg,,S-225 20,5010,1,2010-05-20 0:00
+20759,1627,Ã„ngsgatan 45,,Stockholm,,S-113 54,5010,1,2010-06-07 0:00
+20760,1628,DaggkÃ¥pevÃ_gen 68,,LidingÃ¶,,S-151 15,5010,0,
+20761,1629,Fredsgatan 76,,MalmÃ¶,,S-221 10,5010,1,2012-01-10 0:00
+20762,1630,EkebyvÃ_gen 79,,NorrtÃ_lje,,S-170 10,5010,0,
+20763,1631,Bultgatan 56,,NynÃ_shamn,,S-123 58,5010,1,2008-03-12 0:00
+20764,1632,Fridhemsgatan 44,,Ã–rebro,,S-510 32,5010,1,2007-12-16 0:00
+20765,1633,GÃ¶thammars vÃ_g 2,,Stenungsund,,S-445 31,5010,1,2013-01-08 0:00
+20766,1634,Finlandsgatan 20,,Stockholm,,S-114 57,5010,0,
+20767,1635,Dimgatan 4,,UmeÃ¥,,S-930 58,5010,1,2009-04-23 0:00
+20768,1636,GÃ_rdesgatan 34,,KÃ¶ping,,S-995 10,5010,1,2010-09-06 0:00
+20769,1637,SkolvÃ_gen 18,,Ã…kersberga,,S-184 50,5010,1,2012-04-11 0:00
+20770,1638,Jaktstigen 56,,NÃ_ssjÃ¶,,S-471 32,5010,1,2007-02-12 0:00
+20771,1639,Furustigen 22,,PiteÃ¥,,S-840 20,5010,1,2010-04-21 0:00
+20772,1640,Brouwersvliet 33,,Antwerpen,,B-2000,6017,1,2009-03-21 0:00
+20773,1641,Frauenplatz 14 A,,MÃ_nchen,Bayern,80331,6002,1,2008-02-13 0:00
+20774,1642,Rosental 6,,MÃ_nchen,Bayern,80331,6002,1,2008-04-12 0:00
+20775,1643,Potterierei 15,,Brugge,,8000,6017,1,2008-11-13 0:00
+20776,1644,Freren Fonteinstraat 1,,Bruxelles,,1082,6017,1,2010-01-15 0:00
+20777,1645,Grasmarktstraat 78,,Bruxelles,,1083,6017,1,2011-05-11 0:00
+20778,1621,110 Castle Glen,,London,,E14 7L8,6009,1,2011-01-13 0:00
+20779,1646,5930 First Ave,,Seattle,Washington,98108,1003,1,2009-11-12 0:00
+20780,1647,1000 Silver Str.,,Seattle,Washington,98107,1003,1,2009-01-14 0:00
+20781,1648,112 Bingham,,Seattle,Washington,98105,1003,1,2008-01-12 0:00
+20782,1424,50 MacLaren,,Seattle,Washington,98106,1003,1,2007-09-12 0:00
+20783,1424,200 Woodridge,,Seattle,Washington,98106,1003,1,2008-12-14 0:00
+20784,1649,741 Parkway Road,,Seattle,Washington,98103,1003,1,2009-05-14 0:00
+20785,1650,5000 Pinecrest Ave,,Seattle,Washington,98108,1003,1,2008-02-14 0:00
+20786,1651,5711 W Century Blvd,,Los Angeles,California,90101,1003,1,2008-09-15 0:00
+20787,1652,71 Sommerset Dr.,,Los Angeles,California,90101,1003,1,2009-10-15 0:00
+20788,1653,101 Windfield Str.,,Los Angeles,California,90101,1003,1,2008-05-15 0:00
+20789,1654,100 Albert,,Toronto,Ontario,P1J 8T7,1004,1,2010-10-13 0:00
+20791,1656,2667 River Road,,Toronto,Ontario,P2T 6G3,1004,1,2010-03-08 0:00
+20792,1657,133 Kilborn Ave,,Toronto,Ontario,P1L 8X8,1004,1,2009-11-15 0:00
+20793,1658,900 Cambridge Ave,,Toronto,Ontario,P1W 1K4,1004,1,2008-01-12 0:00
+20794,1659,2881 Madison Ave,,Toronto,Ontario,P5S 6R4,1004,1,2007-06-12 0:00
+20795,1660,Haapaniemenkatu 17,,Kuopio,,70110,5022,1,2010-10-12 0:00
+20796,1661,Tehtaankatu 25,,Kuopio,,70500,5022,1,2010-10-12 0:00
+20797,1662,Ruusulankatu 21,,Kuopio,,70554,5022,1,2009-10-12 0:00
+20798,1663,KorppaanmÃ_entie 38,,Kuopio,,70200,5022,1,2007-09-12 0:00
+20799,1664,Mannerheimintie 13 A 2,,Kuopio,,70111,5022,1,2008-03-12 0:00
+20800,1665,MartinkylÃ_ntie 53,,Kuopio,,70325,5022,1,2010-01-12 0:00
+20801,1666,Pekanraitti 14,,Kuopio,,70121,5022,1,2008-08-12 0:00
+20802,1667,"2-10-1 Yurakucjo, Chiyoda-ku",,Tokyo,Tokyo,135-0052,4011,1,2008-02-13 0:00
+20803,1668,"3-20-2 Nishi Shinjuku, Shinjuku-ku",,Tokyo,Tokyo,130-5444,4011,1,2007-01-12 0:00
+20804,1669,3-12-5 Ryusen Taito-Ku -Tokyo,,Tokyo,Tokyo,132-5445,4011,1,2013-04-13 0:00
+20805,1670,70 Oxford St,,Birmingham,West Midlands,B2 4LS,6009,1,2008-06-12 0:00
+20806,1671,22 Cannon St,,Birmingham,West Midlands,B4 7SL,6009,1,2013-03-05 0:00
+20807,1672,42 High St,,Birmingham,West Midlands,B4 7SL,6009,1,2009-05-12 0:00
+20808,1673,18 New St,,Birmingham,West Midlands,B2 4LS,6009,1,2008-10-12 0:00
+20809,1674,Unit 1b Moor St Level,,Birmingham,West Midlands,B5 5RA,6009,1,2013-03-07 0:00
+20810,1675,"88 Century Blvd, Pudong",,Shanghai,,200325,4014,1,2008-06-12 0:00
+20811,1676,"88, Henan Central rd, 333 Jiujiang Rd",,Shanghai,,201211,4014,1,2008-08-13 0:00
+20812,1677,"1376, Nanjing xi lu",,Shanghai,,200015,4014,1,2007-07-13 0:00
+20813,1678,100 Changliu Road Pudong,,Shanghai,,200134,4014,1,2008-02-12 0:00
+20814,1679,"889 Dong Fang rd, Pudong District",,Shanghai,,200122,4014,1,2008-08-12 0:00
+20815,1680,1225 nan Jing xi lu,,Shanghai,,200040,4014,1,2009-03-12 0:00
+20816,1681,18 xin jin Qiao Road,,Shanghai,,201206,4014,1,2009-09-12 0:00
+20817,1682,33 fu Cheng Rd,,Shanghai,,200120,4014,1,2008-06-12 0:00
+20818,1683,"800 Ling Ling rd, xu hui District",,Shanghai,,200030,4014,1,2009-05-12 0:00
+20819,1684,1200 cao xi bei lu,,Shanghai,,200030,4014,1,2007-09-12 0:00
+20820,1685,399 Nanjing West Rd,,Shanghai,,200003,4014,1,2007-12-13 0:00
+20821,1686,1100 qi Hang Road,,Shanghai,,201202,4014,1,2010-06-10 0:00
+20822,1687,836-838 Dongfang Rd,,Shanghai,,200122,4014,1,2010-06-10 0:00
+20823,1688,No 250 Hua Shan Road,,Shanghai,,200040,4014,1,2012-04-18 0:00
+20824,1689,1305 Kaixuan Rd North,,Shanghai,,200063,4014,1,2012-04-10 0:00
+20825,1690,161 Changle Rd,,Shanghai,,200020,4014,1,2007-05-12 0:00
+20826,1691,380 Huang pi Road South,,Shanghai,,200021,4014,1,2009-07-12 0:00
+20827,1692,11 Cavenagh Road,,Singapore,,39799,4012,1,2007-10-12 0:00
+20828,1693,12 Perak Road,,Singapore,,208133,4012,1,2008-03-13 0:00
+20829,1694,7 Raffles Boulevard,,Singapore,,39798,4012,1,2011-12-22 0:00
+20830,1695,2 Stamford Rd,,Singapore,,178882,4012,1,2011-12-21 0:00
+20831,1696,22 Orange Grove Rd,,Singapore,,39794,4012,1,2011-12-13 0:00
+20832,1697,100 Orchard Road,,Singapore,,39790,4012,1,2008-06-12 0:00
+20833,1698,7 Raffles Ave,,Singapore,,39789,4012,1,2007-03-12 0:00
+20834,1699,"Via Sanzio Raffaello, 5",,Milan,,20090,7006,1,2008-05-12 0:00
+20835,1700,"Via Morgagni Giovanni Battista, 8",,Milan,,20121,7006,1,2011-04-11 0:00
+20836,1701,"Piazza Dell' Orologio, 7",,Milan,,20123,7006,1,2011-04-18 0:00
+20837,1702,"Via Di S. Eufemia, 5",,Milan,,20122,7006,1,2011-04-13 0:00
+20838,1703,"Via Di S. Basilio, 72",,Milan,,20126,7006,1,2010-04-14 0:00
+20839,1704,"Corso Garibaldi Giuseppe, 3",,Milan,,20127,7006,1,2011-04-18 0:00
+20840,1705,"Piazza S. Alessandro, 2",,Milan,,20124,7006,1,2010-12-06 0:00
+20842,1707,"23, Rue de SÃ©vignÃ©",,Paris,,75011,6001,1,2012-04-10 0:00
+20843,1708,"8, pass Turquetil",,Paris,,75003,6001,1,2012-04-10 0:00
+20844,1709,Radetzkystrasse 2,,Wien,,1030,7005,1,2007-12-12 0:00
+20845,1710,SchlÃ¶sselgasse 11,,Wien,,1080,7005,1,2009-05-13 0:00
+20846,1711,Peter-Jordan-Strasse 78,,Wien,,1190,7005,1,2008-07-13 0:00
+20847,1712,Keisslergasse 24,,Wien,,1140,7005,1,2007-10-12 0:00
+20848,1713,FranzensbrÃ_ckenstrasse 9,,Wien,,1020,7005,1,2009-09-12 0:00
+20849,1714,Maroltingergasse 68,,Wien,,1160,7005,1,2008-07-12 0:00
+20850,1715,1 8 50 Temmabashi,,Osaka-shi,Osaka,530-0042,4011,1,2008-01-12 0:00
+20851,1716,"2-5-25 Umeda, Kita-Ku",,Osaka-shi,Osaka,530-0001,4011,1,2008-12-14 0:00
+20852,1717,"10-48, Hidenincho, Tennoji-Ku",,Osaka-shi,Osaka,543-0055,4011,1,2008-03-13 0:00
+20853,1718,"1-4-1, Shiromi Chuo-Ku",,Osaka-shi,Osaka,540-8578,4011,1,2007-01-14 0:00
+20854,1719,"5-1-60 Namba, Chuo-Ku",,Osaka-shi,Osaka,542-0076,4011,1,2011-03-07 0:00
+20855,1720,"9-6 Toyotsu-Cho, Suita",,Osaka-shi,Osaka,564-0051,4011,1,2007-05-12 0:00
+20857,1722,"8-8 Umeda 1-CHOME, Kita-Ku",,Osaka-shi,Osaka,530-0001,4011,1,2012-04-17 0:00
+20858,1723,2-3-25 Dotonbori,,Osaka-shi,Osaka,531-2110,4011,1,2010-05-21 0:00
+20859,1724,1-15-15 Higashi Shinsaibashi,,Osaka-shi,Osaka,542-0083,4011,1,2010-05-10 0:00
+20860,1725,2-3-18 Nakanoshima Kita-Ku,,Osaka-shi,Osaka,530-0005,4011,1,2011-03-07 0:00
+20861,1726,"2-1 Doyama-Choo, Kita ku",,Osaka-shi,Osaka,530-0027,4011,1,2008-02-12 0:00
+20863,1728,9019 SW 107th Ave,,Miami,Florida,33176,1003,1,2009-09-12 0:00
+20865,1730,15781 NW 7th Ave,,Miami,Florida,33166,1003,1,2009-02-12 0:00
+20866,1731,6740 NW 72nd Ave,,Miami,Florida,33168,1003,1,2009-11-14 0:00
+20867,1732,14395 SW 139th CT,,Miami,Florida,33169,1003,1,2007-04-15 0:00
+20868,1733,3611 W Flagler St,,Miami,Florida,33170,1003,1,2007-04-14 0:00
+20869,1734,"21, r Gasparin",,Lyon,,69002,6001,1,2010-05-10 0:00
+20870,1735,"48, av Mar Foch",,Lyon,,69006,6001,1,2007-07-12 0:00
+20871,1736,"15 B, r AlgÃ©rie",,Lyon,,69001,6001,1,2010-05-12 0:00
+20872,1737,"1, r Joseph Marie Jacquard",,Lyon,,69800,6001,1,2007-08-12 0:00
+20873,1738,"4, r Jussieu",,Lyon,,69002,6001,1,2009-01-12 0:00
+20874,1739,"5, r Coustou",,Lyon,,69001,6001,1,2007-09-12 0:00
+20875,1740,"173, r LÃ©on Blum",,Lyon,,69100,6001,1,2008-08-12 0:00
+20876,1741,"27, r HÃ©non",,Lyon,,69004,6001,1,2009-02-12 0:00
+20877,1742,"34, av Jean JaurÃ¨s",,Lyon,,69007,6001,1,2009-09-12 0:00
+20878,1743,Pl. Miguel de Unamuno 4,,Bilbao,,48005,7019,1,2008-12-19 0:00
+20879,1744,Artabide Kalea 22,,Bilbao,,48007,7019,1,2010-01-12 0:00
+20880,1745,Zumalakarregi Etorbidea 93,,Bilbao,,48007,7019,1,2011-03-09 0:00
+20881,1746,"Avanzada Errepidea 1,",,Bilbao,,48006,7019,1,2011-12-14 0:00
+20882,1747,Av. Libertad 53,,Bilbao,,48003,7019,1,2009-08-12 0:00
+20883,1748,Nafarroa Kalea 9,,Bilbao,,48007,7019,1,2011-11-10 0:00
+20884,1749,"81, quai Charles de Gaulle",,Lyon,,69006,6001,1,2008-11-13 0:00
+20885,1750,1523 6th Ave,,Seattle,Washington,98101,1003,1,2007-03-12 0:00
+20886,1751,1101 Madison St # 600,,Seattle,Washington,98118,1003,1,2013-01-11 0:00
+20887,1752,1050 W Ewing St,,Seattle,Washington,98119,1003,1,2008-08-12 0:00
+20888,1753,"Units F12 & G13 The Plaza, West End",,London,,W1T 1LT,6009,1,2009-12-12 0:00
+20889,1754,"19-21 Argyll St, West End",,London,,W1F 7TR,6009,1,2011-11-15 0:00
+20890,1755,3218 NW North River Dr,,Miami,Florida,33142,1003,1,2013-07-19 0:00
+20891,1756,"10, r Basfroi",,Paris,,75011,6001,1,2007-12-12 0:00
+20892,1757,1 Fullerton Square,,Singapore,,49178,4012,1,2007-10-12 0:00
+20893,1758,403 Havelock Rd,,Singapore,,169632,4012,1,2007-04-12 0:00
+20894,1759,Amstelplein 1 13,,Amsterdam,,1096,5007,1,2008-01-12 0:00
+20895,1760,Av Paulista 1578,,Sao Paulo,,6558-004,1021,1,2007-06-12 0:00
+20896,1761,Av. Brigadeiro LuÃ_z Antonio 1976,,Sao Paulo,,1318-001,1021,1,2009-07-12 0:00
+20897,1762,"Rua Reims, 177",,Sao Paulo,,6558-001,1021,1,2008-05-12 0:00
+20898,1763,"Al. dos Anapurus, 1469",,Sao Paulo,,2335-002,1021,1,2007-11-12 0:00
+20899,1764,"Av. Faria Lima, 2931",,Sao Paulo,,6555-003,1021,1,2009-01-12 0:00
+20900,1765,R. Ministro Godoi 1169,,Sao Paulo,,5015-001,1021,1,2009-08-12 0:00
+20901,1766,"Rua Coronel Quirino, 252",,Sao Paulo,,3221-002,1021,1,2007-04-13 0:00
+20902,1767,16 18 St James Place,,London,,SW1A 1NJ,6009,1,2011-03-17 0:00
+20903,1768,18 St Chads,,Birmingham,,B4 6HY,6009,1,2013-03-07 0:00
+20904,1769,Neumuehlequai 42,,Zurich,,8001,6008,1,2011-02-09 0:00
+20905,1770,Talackerstrasse 1,,Zurich,,8152,6008,1,2011-02-10 0:00

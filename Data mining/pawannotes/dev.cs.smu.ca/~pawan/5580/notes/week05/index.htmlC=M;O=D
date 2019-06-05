@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /~pawan/5580/notes/week05</title>
+ </head>
+ <body>
+<h1>Index of /~pawan/5580/notes/week05</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=A">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/~pawan/5580/notes/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="Rplots.pdf">Rplots.pdf</a></td><td align="right">2019-03-13 15:14  </td><td align="right"> 17K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/image2.gif" alt="[IMG]"></td><td><a href="XORnet.jpg">XORnet.jpg</a></td><td align="right">2019-03-06 13:40  </td><td align="right">413K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="try.rda">try.rda</a></td><td align="right">2019-03-06 13:40  </td><td align="right">260K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="trainSaveRF.r">trainSaveRF.r</a></td><td align="right">2019-03-06 13:40  </td><td align="right">348 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="trainedRF.rda">trainedRF.rda</a></td><td align="right">2019-03-06 13:40  </td><td align="right">333K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="trainedNN.rda">trainedNN.rda</a></td><td align="right">2019-03-06 13:40  </td><td align="right"> 11K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="trainD.csv">trainD.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">6.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="timeseriesHistory.r">timeseriesHistory.r</a></td><td align="right">2019-03-06 13:40  </td><td align="right">1.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="testD.csv">testD.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">3.5K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="resultsTrain.csv">resultsTrain.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">3.3K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/layout.gif" alt="[   ]"></td><td><a href="R_timeSeries.pdf">R_timeSeries.pdf</a></td><td align="right">2019-03-06 13:40  </td><td align="right">277K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="resultsTest.csv">resultsTest.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">1.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="predictionRegressionSVMNeuralnetRandomForest.r">predictionRegressionSVMNeuralnetRandomForest.r</a></td><td align="right">2019-03-06 13:40  </td><td align="right">1.7K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="perceptronNeuralRegressionSupportVectorPictures/">perceptronNeuralRegressionSupportVectorPictures/</a></td><td align="right">2019-03-06 13:40  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="loadTestRF.r">loadTestRF.r</a></td><td align="right">2019-03-06 13:40  </td><td align="right">316 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="learnQuery.xls">learnQuery.xls</a></td><td align="right">2019-03-06 13:40  </td><td align="right"> 35K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="learnQueryPerceptron.gsheet">learnQueryPerceptron.gsheet</a></td><td align="right">2019-03-06 13:40  </td><td align="right">256 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="howToTrainTestSeparately.csh">howToTrainTestSeparately.csh</a></td><td align="right">2019-03-06 13:40  </td><td align="right">175 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="homeworkTrain.csv">homeworkTrain.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">6.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="homeworkTest.csv">homeworkTest.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">6.9K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="homeworkFeb0816.txt">homeworkFeb0816.txt</a></td><td align="right">2019-03-06 13:40  </td><td align="right">831 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="createTrainTestSet.r">createTrainTestSet.r</a></td><td align="right">2019-03-06 13:40  </td><td align="right">441 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="beer.csv">beer.csv</a></td><td align="right">2019-03-06 13:40  </td><td align="right">3.0K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/image2.gif" alt="[IMG]"></td><td><a href="AND-ORnet.jpg">AND-ORnet.jpg</a></td><td align="right">2019-03-06 13:40  </td><td align="right">121K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.29 (Ubuntu) Server at dev.cs.smu.ca Port 80</address>
+</body></html>

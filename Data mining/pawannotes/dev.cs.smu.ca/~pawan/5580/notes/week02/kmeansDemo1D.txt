@@ -1,0 +1,36 @@
+Cluster the following points in two clusters using k-means algoirthn
+
+23
+45
+12
+67
+78
+88
+90
+21
+22
+10
+100
+
+Assume 7 and 9 to be initial centroids c1, and c2
+
+All the objects belong to cluster 2, because they are closer to 9 as opposed to 7
+Calculate the centroid c1.
+
+c1 = 0/0 = 0 (not mathematically right)
+c2 = sum of all the objects/11 = 556/11 = 50.54
+
+Recalculate the membership
+c1: 23 12 21 22 10 = 88/5 = 17.6
+
+c2: 45 67 78 88 90 100 = 468/6 = 78
+
+Recalculate the membership
+c1: 23 12 21 22 10 45 = 133/6 = 22.16
+
+c2: 67 78 88 90 100 = 423/5 = 84.6
+
+Recalculate the membership
+c1: 23 12 21 22 10 45 = 133/6 = 22.16
+
+c2: 67 78 88 90 100 = 423/5 = 84.6
