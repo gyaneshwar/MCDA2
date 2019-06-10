@@ -1,9 +1,11 @@
-<html>
+
+<!DOCTYPE html>
+<html lang=en manifest="manifest.appcache">
 <head>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
-<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<link rel="stylesheet" src="jquery.mobile-1.3.1.min.css"/>
+<link rel="stylesheet" src="bootstrap.min.css">
+<script src="bootstrap.js"></script> 
+<script src="jquery-1.9.1.min.js"></script> 
 <script src="http://demos.jquerymobile.com/1.4.5/icons/"></script>
 <script>
     //for bypassing the chrome error
@@ -11,14 +13,17 @@
         $.mobile.pushStateEnabled = false;
     });
 </script>
-<script src="javascript.js"></script>
+
 <!--Custom Javascript/Jquery -->
+<script src="chromeFileProtocolFix.js"></script>
 <script src="RGraph.common.core.js"></script>
+<script src="RGraph.common.dynamic.js"></script>
 <script src="RGraph.common.effects.js"></script>
 <script src="RGraph.line.js"></script>
 <script src="RGraph.cornergauge.js"></script>
 <script src="RGraph.hprogress.js"></script>
-
+<script src="pageLoader.js"></script>
+<script src="javascript.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>

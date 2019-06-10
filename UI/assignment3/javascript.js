@@ -108,3 +108,43 @@ function checkAddOrEditRecord() {
 
 }
 
+function drawAdviceCanvas(ctx, expense) {
+  ctx.font = "22px Arial";
+  ctx.fillStyle = "black";
+  ctx.fillText("Your current expense is " + expense +  ".", 25, 320);
+
+    ctx.fillText(
+      "Your target Expense range is: 50-100CAD",  25, 350);
+    levelwrite(ctx, expense);
+    levelMeter(ctx, expense);
+}
+
+//For deciding what to write for given values
+function levelwrite(ctx, expense) {
+  if ((expense >= 1) && (expense <= 10)) {
+    writeAdvice(ctx, "green");
+  } else if ((expense > 10) && (expense <= 50)) {
+    writeAdvice(ctx, "yellow");
+  } else {
+    writeAdvice(ctx, "red");
+  }
+}
+
+function writeAdvice(ctx, level) {
+  var adviceLine1 = "";
+  var adviceLine2 = "";
+
+  if (level == "red") {
+    adviceLine1 = "Please take care of the Expenses.";
+    adviceLine2 = "Its exceedingly more than set limit.";
+  } else if (level == "yellow") {
+    adviceLine1 = "The expenses needs to be checked!!";
+  } else if (level = "green") {
+    adviceLine1 =
+      "Your expenses are on track .";
+  }
+  ctx.fillText("Your Expense is " + level +
+    ".", 25, 380);
+  ctx.fillText(adviceLine1, 25, 410);
+  ctx.fillText(adviceLine2, 25, 440);
+}
