@@ -191,8 +191,8 @@ x=training_set[,1:6]
 y=training_set[,7]
 
 rf=randomForest(x,y, ntree=260)
-rfp=predict(rf,x)
-rfCM=table(rfp,y)
+rfp=predict(rf,test_set[,1:6])
+rfCM=table(rfp,test_set[,7])
 rfCM
 #Accuracy of the prediction using randomForest
 accuracy = sum(diag(rfCM))/sum(rfCM)

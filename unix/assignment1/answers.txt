@@ -1,9 +1,15 @@
-Part 1:
+Team:
 
-1. ~ is not equal to .
-2. ~ is not equal to ..
-3. . is not equal to ..
-4. ~ is not equal to /
+Gyaneshwar Rao Nampally A00433014
+Allen Raju Mathew 
+A00432526
+
+Part 1:
+/home/gr_nampally is considered as ~.
+1. ~ is not equal to . (it is only equal when we are performing the operation from home directory of the user)
+2. ~ is not equal to .. (it is only equal when we are performing the operation from the second level of folder of home directory. example /users/gr_nampally/foldername/ is the current directory, then cd .. or cd ~ would mean the same)
+3. . is not equal to .. (it is only true when we are performing this operation from / (root) directory)
+4. ~ is not equal to / (it is only true when for the root user).
 
 ~ redirects to the home directory of the user.
 
