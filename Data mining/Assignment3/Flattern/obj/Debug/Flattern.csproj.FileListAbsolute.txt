@@ -1,0 +1,7 @@
+F:\SMU2\Data mining\Assignment3\Flattern\bin\Debug\Flattern.exe.config
+F:\SMU2\Data mining\Assignment3\Flattern\bin\Debug\Flattern.exe
+F:\SMU2\Data mining\Assignment3\Flattern\bin\Debug\Flattern.pdb
+F:\SMU2\Data mining\Assignment3\Flattern\obj\Debug\Flattern.csprojAssemblyReference.cache
+F:\SMU2\Data mining\Assignment3\Flattern\obj\Debug\Flattern.csproj.CoreCompileInputs.cache
+F:\SMU2\Data mining\Assignment3\Flattern\obj\Debug\Flattern.exe
+F:\SMU2\Data mining\Assignment3\Flattern\obj\Debug\Flattern.pdb
