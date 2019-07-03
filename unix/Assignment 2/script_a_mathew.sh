@@ -30,10 +30,45 @@ wget lnx.cs.smu.ca/docker/app.py
 echo -e "Files were Downloaded Successfully, as seen below: \n"
 ls
 
-sed -i 's/Hello World!/Today is an odd day/g' app.py
+DD=$(date +%d)
 
+check=$($day%2)
+
+echo -e "Current Day: \n"
+echo -e $DD
+
+if [ $check -eq 0 ]
+then
+        echo "Even"
+#       sed -i 's/Hello World!/Today is an even day/g' app.py
+else
+        echo "Odd"
+#       sed -i 's/Hello World!/Today is an odd day/g' app.py
+if
 echo -e "-----------------------------------"
 echo -e "-----------------------------------"
 
-docker build -t a_mathew_a2 .
-docker run -p 1122:80 a_mathew_a2
+cd ..
+
+#docker build -t a_mathew_a2 .
+#docker run -p 1122:80 a_mathew_a2
+
+#min_port = 1999
+
+#while [ $min_port -lt 2050 ]
+#do
+#       echo -e $min_port
+#       ((min_port++))
+#done
+
+#if [ $? -eq 0 ]
+#then
+#       echo "Success: I found IP address in file."
+#       docker ps -a | grep a_mathew | awk '{ print $1 }'
+#       val = (docker ps -a | grep a_mathew | awk '{ print $1 }')
+#       echo -e "Printing Result"
+#       echo $val
+#
+#else
+#       echo "Failure: I did not found IP address in file. Script failed" >&2
+#fi
