@@ -1,0 +1,32 @@
+use admin
+db.createUser(
+  {
+    user: "myUserAdmin",
+    pwd: "abc123",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+  }
+)
+
+
+use gr_nampally
+db.createUser(
+  {
+    user: "gr_nampally",
+    pwd: "A00433014",
+    roles: [ { role: "readWrite", db: "gr_nampally" }]
+  }
+)
+
+
+mongo --port 27017 -u "gr_nampally" --authenticationDatabase "gr_nampally" -p
+
+for newer version.
+
+http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/#connect-to-mongodb
+
+read queries from url
+https://stackabuse.com/get-query-strings-and-parameters-in-express-js/
+
+res vs res end
+https://blog.fullstacktraining.com/res-json-vs-res-send-vs-res-end-in-express/
+
