@@ -1,4 +1,4 @@
-#!/bash/bin
+!/bash/bin
 
 echo -e "====================================================="
 echo -e "Running Script File"
