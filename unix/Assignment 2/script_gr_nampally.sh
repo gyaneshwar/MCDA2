@@ -1,26 +1,26 @@
 
 #########################################################
 #########################################################
-#														#
-# TEAM													#
-# =====													#
-#														#
-# Gyaneshwar Rao Nampally A00433014						#
-# Sachit Jain A00432721									#
-# Allen A00432526										#
-#														#
-# Execution command : . script_gr_nampally.sh 			#
-#														#
-#														#
-# Output:												#
-#														#
-# out/app.py 											#
-# out/serv.html 										#
-#														#
-#														#
-# note: The files app.py and serv.html are saved 		#
-# exclusively as the output of the program. 			#
-#														#
+#							#
+# TEAM							#
+# =====							#
+#							#
+# Gyaneshwar Rao Nampally A00433014			#
+# Sachit Jain A00432721					#
+# Allen A00432526					#
+#							#
+# Execution command : . script_gr_nampally.sh 		#
+#							#
+#							#
+# Output:						#
+#							#
+# out/app.py 						#
+# out/serv.html 					#
+#							#
+#							#
+# note: The files app.py and serv.html are saved 	#
+# exclusively as the output of the program. 		#
+#							#
 #########################################################
 #########################################################
 
@@ -28,7 +28,7 @@
 
 echo  "====================================================="
 echo  "Running Script File"
-echo  "=====================================================\n"
+echo  "====================================================="
 
 try ()
 {
@@ -55,7 +55,7 @@ destroy_function () {
 
 	#looping and killing each process_ids
 	while read p; do
-	echo "$p"
+	echo "killing process id: $p"
 	kill -9 $p #killing the processes of docker.
 	done < process_ids
 
@@ -64,7 +64,12 @@ destroy_function () {
 	if [ -f docker_ids ]
 	then
 		while read docker_id; do
-			docker container rm -f $docker_id #removing the docker containers.
+			echo "Stopping docker with hash:$docker_id"
+			echo "please wait ... "
+			docker container stop $docker_id > /dev/null
+			echo "docker with hash:$docker_id has stopped"
+			echo "removing docker with hash :$docker_id"
+			docker container rm -f $docker_id > /dev/null #removing the docker containers.
 		done < docker_ids
 	fi
 	sleep 3
@@ -79,19 +84,19 @@ destroy_function () {
 #Quesion 1
 #check if the 'out' folder does exists, if it does, then delete the folder and create afresh.
 program () {
-	
+
 	try
 	(
 	if [ -d out ] # check the folder 'out'
 	then
 	        echo  "Folder 'out' exist. Removing now"
-	        rm -rf out || throw 1 # -r recursively remove the files inside the directory, -f force the deletion operation irrespective of permissions.
+	        rm -rf out || throw 1  # -r recursively remove the files inside the directory, -f force the deletion operation irrespective of permissions.
 	        echo  "Existing Folder 'out' Deleted Successfully \n"
 	fi
 	echo  "Creating Folder 'out'"
 	mkdir ./out #creating the folder out.
 	echo  "Folder Created Successfully \n"
-	
+
 #Question 2
 #Enter into the 'out' folder.
 	echo  "Entering Folder 'out'"
@@ -102,8 +107,8 @@ program () {
 #Question 3
 #Download Dockerfile and app.py and check if they exists in the local directory.
 	echo  "Downloading the 'Dockerfile' and 'app.py' file from 'http://lnx.cs.smu.ca/docker/'"
-	wget lnx.cs.smu.ca/docker/Dockerfile || throw 1
-	wget lnx.cs.smu.ca/docker/app.py || throw 1
+	(wget -nv lnx.cs.smu.ca/docker/Dockerfile) || throw 1
+	(wget -nv lnx.cs.smu.ca/docker/app.py) || throw 1
 
 	if [ -f Dockerfile ] && [ -f app.py ] #verifying the existance of the files.
 	then
@@ -122,21 +127,21 @@ program () {
 
 	if [ $check_DD -eq 1 ] #checking if the function is equal to 1 (which determines if it is even or odd)
 	then
-		sed -i 's/Hello World!/Today is an odd day/g' app.py || throw 1 #replacing Hello world with 'Today is an odd day'
+		(sed -i 's/Hello World!/Today is an odd day/g' app.py) || throw 1 #replacing Hello world with 'Today is an odd day'
 	else
-		sed -i 's/Hello World!/Today is an even day/g' app.py || throw 1 #replacing Hello world with 'Today is an even day'
+		(sed -i 's/Hello World!/Today is an even day/g' app.py) || throw 1 #replacing Hello world with 'Today is an even day'
 	fi
 
 #Question 5
-	(docker build -t gr_nampally .) || throw 1 #building the docker image with the name 'gr_nampally' 
-
+	(docker build -t gr_nampally_a2 -q .) || throw 1 #building the docker image with the name 'gr_nampally_a2' 
+	#Justification: with docker we can use --name, but instead process id is providing uniqueness for every instance automatically. 
+	#we are any how providing a tag for the docker containers gr_nampally_a2
 	port=0 #initializing the port variable.
 #Question 6
 	echo  "Checking for available ports"
-	port=$(nc -zv lnx.cs.smu.ca 1999-2500 2>&1 | grep -m 1 refused | awk '{ print $6 }') #checking for the free ports in the range of 1999, 2500
-	echo  port
-	echo  "Running docker on "$port
-	(docker run -p $port:80 gr_nampally_a2 &) || throw 1 # proxy the available port on the parent machine to docker 80 port.
+	port=$(nc -zv lnx.cs.smu.ca 1999-65000 2>&1 | grep -m 1 refused | awk '{ print $6 }') #checking for the free ports in the range of 1999, 2500
+	echo  "Running docker on port: $port"
+	(docker run -p $port:80 gr_nampally_a2 &) > /dev/null || throw 1 # proxy the available port on the parent machine to docker 80 port.
 #Question 7
 
 docker container ps -a | grep gr_nampally | awk '{ print $1 }' > docker_ids #storing the Docker unique Id's in 'docker_ids' file as buffer.
@@ -158,7 +163,7 @@ done < docker_ids
 	fi
 
 #Question 9
-	wget lnx.cs.smu.ca:$port -O serv.html || throw 1
+	wget -nv lnx.cs.smu.ca:$port -O serv.html || throw 1
 
 	if [ -f serv.html ]
 		then 
@@ -167,8 +172,13 @@ done < docker_ids
 		echo  "serv.html download failed, terminating the program"
 		throw 1 #throwing an exception as the serv.html was not captured.
 	fi
-	echo "Success"
+
+#Question 10 open
+	echo "Porting lnx.cs.smu.ca ---> dev.cs.smu.ca on port : $port"
+	(ssh -R $port:127.0.0.1:$port gr_nampally@dev.cs.smu.ca "wget -nv 127.0.0.1:$port") || throw 1
+
 	destroy_function # cleaning the container and image of docker.
+	echo "Program Success"
 	exit 0 # Exiting the program with success code.
 	)
 	catch || {
