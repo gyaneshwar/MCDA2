@@ -70,6 +70,18 @@ y_hat = predict(nnFitTime, newdata = x)
 mean(100*abs(y_hat-y)/y)#10.84375
 # Your error with neural networks
 
+# random forest
+randomforest <- train(V8 ~ .,
+                   data = xy,
+                   method = "rf",
+                   ntree = 500,
+                   trControl = myCvControl
+                   )
+randomforest
+summary(randomforest)
+y_hat = predict(randomforest, newdata = x)
+mean(100*abs(y_hat-y)/y)#10.84375
+
 # You can experiment with other methods, here is where you can find the methods caret supports:
 # https://topepo.github.io/caret/available-models.html
 
