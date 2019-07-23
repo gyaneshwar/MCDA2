@@ -19,7 +19,7 @@ x=xy[,1:7]
 
 myCvControl <- trainControl(method = "repeatedcv",
                             number = 10,
-                           repeats = 5)
+                            repeats = 5)
 # Linear regression 
 # glm (Generalized linear model)
 # Cross-Validated (10 fold)
@@ -71,12 +71,8 @@ mean(100*abs(y_hat-y)/y)#10.84375
 # Your error with neural networks
 
 # random forest
-randomforest <- train(V8 ~ .,
-                   data = xy,
-                   method = "rf",
-                   ntree = 500,
-                   trControl = myCvControl
-                   )
+randomforest <- train(V8 ~ ., data = xy,method = "rf",ntree = 500,trControl = myCvControl
+)
 randomforest
 summary(randomforest)
 y_hat = predict(randomforest, newdata = x)
@@ -88,7 +84,8 @@ mean(100*abs(y_hat-y)/y)#10.84375
 # Compare models
 resamps <- resamples(list(lm = glmFitTime,
                           svn = svmFitTime,
-                          nn = nnFitTime))
+                          nn = nnFitTime,
+                          rf = randomforest))
 summary(resamps)
 
 
