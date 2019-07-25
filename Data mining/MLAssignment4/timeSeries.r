@@ -101,9 +101,9 @@ summary(ar)
 
 
 # Your Arima error - min 2014
-#ar <- Arima(min_ts_2014,order=c(3,1,7))
-#mean(100*abs(fitted(ar) - min_ts_2014)/min_ts_2014)
-#summary(ar)
+ar <- Arima(min_ts_2014,order=c(3,1,7))
+mean(100*abs(fitted(ar) - min_ts_2014)/min_ts_2014)
+summary(ar)
 
 
 
