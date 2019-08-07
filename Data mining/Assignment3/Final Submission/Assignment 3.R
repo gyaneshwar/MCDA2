@@ -1,4 +1,4 @@
-setwd("D:/Workspace/r-workspace/MCDA 5580/Assignment3")
+setwd("F:\\SMU2\\Data mining\\Assignment3\\")
 getwd()
 
 # install.packages("arules")
@@ -8,7 +8,7 @@ getwd()
 library(arules)
 library(plyr)
 
-df_user= read.csv("temp.csv")
+df_user= read.csv("F:/SMU2/Data mining/Assignment3/Final Submission/temp.csv")
 df_user <- df_user[df_user$InvoiceNo != "0", ]
 View(df_user)
 df_user = ddply(df_user,c("InvoiceNo"),function(dfl)paste(dfl$Description, collapse = ","))
@@ -17,7 +17,11 @@ write.table(df_user,"Milestones2.csv", quote=FALSE, row.names = FALSE, col.names
 tr = read.transactions("Milestones2.csv",format="basket",sep=",")
 summary(tr)
 itemFrequencyPlot(tr, topN=10)
-
+#-------------------------------------------------------------
+#supp = 0.03
+rules = apriori(tr,parameter = list(supp=0.02,conf=0.45))
+inspect(rules)
+rules
 #-------------------------------------------------------------
 #supp = 0.03
 rules = apriori(tr,parameter = list(supp=0.03,conf=0.5))

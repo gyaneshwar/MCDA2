@@ -70,11 +70,11 @@ treeCM=table(training_set[,7],predCar)
 treeCM
 #Accuracy of the prediction using Decision Tree
 accuracy=sum(diag(treeCM))/sum(treeCM)
-
+accuracy
 #-----------------Decision Tree , ROC curves ---------------------------------#
 
 predCar_prob=predict(treeCar,training_set,type="prob")
-
+predCar_prob
 roc_1 = roc(training_set[,"shouldBuy"],predCar_prob[,1],smoothed = TRUE,
             # arguments for ci
             ci=TRUE, ci.alpha=0.9, stratified=FALSE,

@@ -10,7 +10,7 @@ set.seed(5580)
 
 #Original Data
 
-prod = read.csv('productcluster.csv')
+prod = read.csv('F:/SMU2/Data mining/Assignment 1/Assignment1-Allen/Assignment1/productcluster.csv')
 View(prod)
 
 ggpairs(prod[,which(names(prod)!="StockCode")], upper = list(continuous = ggally_points),
@@ -28,7 +28,7 @@ ggpairs(prod.clean[,which(names(prod.clean)!="StockCode")], upper = list(continu
 #Scale Data
 
 prod.scale = scale(prod.clean[-1]) 
-
+prod.scale
 withinSSrange <- function(data,low,high,maxIter)
 {
   withinss = array(0, dim=c(high-low+1));
@@ -42,8 +42,9 @@ withinSSrange <- function(data,low,high,maxIter)
 plot(withinSSrange(prod.scale,1,50,150))
 
 pkm = kmeans(prod.scale, 6, 150)
+pkm$centers
 prod.realCenters = unscale(pkm$centers, prod.scale) 
-
+prod.realCenters
 clusteredProd = cbind(prod.clean, pkm$cluster)
 #View(clusteredProd)
 plot(clusteredProd[,2:5], col=pkm$cluster)

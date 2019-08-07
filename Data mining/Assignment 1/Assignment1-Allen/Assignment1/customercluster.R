@@ -10,14 +10,14 @@ set.seed(5580)
 
 #Original Data
 
-cust = read.csv('customercluster.csv')
+cust = read.csv('F:/SMU2/Data mining/Assignment 1/Assignment1-Allen/Assignment1/customercluster.csv')
 View(cust)
 
 ggpairs(cust[,which(names(cust)!="CustomerID")], upper = list(continuous = ggally_points),
         lower = list(continuous = "points"), title = "Customers Before Outlier Removal")
 
 #Clean Data - Remove Outliers
-
+cust.clean = cust
 cust.clean <- cust[cust$CustomerID != "0", ]
 cust.clean <- cust.clean[cust.clean$CustomerID != "14646", ]
 
@@ -29,7 +29,7 @@ ggpairs(cust.clean[,which(names(cust.clean)!="CustomerID")], upper = list(contin
 #Scale Data
 
 cust.scale = scale(cust.clean[-1]) 
-
+cust.scale
 withinSSrange <- function(data,low,high,maxIter)
 {
   withinss = array(0, dim=c(high-low+1));
@@ -42,9 +42,13 @@ withinSSrange <- function(data,low,high,maxIter)
 
 plot(withinSSrange(cust.scale,1,50,150))
 
-pkm = kmeans(cust.scale, 6, 150)
+pkm = kmeans(cust.scale, 10, 150)
+pkm
+pkm$size
+pkm$centers
+pkm$withinss
 cust.realCenters = unscale(pkm$centers, cust.scale) 
-
+cust.realCenters
 clusteredCust = cbind(cust.clean, pkm$cluster)
 #View(clusteredCust)
 plot(clusteredCust[,2:5], col=pkm$cluster)
