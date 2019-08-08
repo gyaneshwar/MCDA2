@@ -1,0 +1,15 @@
+--SQL pre-processing
+--Creating a table in SQL appropriate to the CSV file.
+create table if not exists s_chumber.sandp500 ( date date, open double(10,2), high double(10,2) , low double(10,2) , close double(10,2) ,volume int, Name VARCHAR(50) ) engine = innodb;
+alter table sandp500 add column year int not null;
+update sandp500 set year = (select year(d.date) from sandp500 d where d.date=s.date) ;
+
+--Transferring data from CSV to relational database (MySQL)
+--load data local infile
+'/home/student_2019_winter/s_chumber/public_html/sandp500/all_stocks_5yr.csv' into table s_chumber.sandp500 COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+
+--Sqoop commands and data load to HDFS
+--Transferring data from relational database to HDFS cluster.
+sqoop import --connect jdbc:mysql://dev.cs.smu.ca:3306/s_chumber --username s_chumber --
+password A00433094 --table s_chumber.sandp500 -m 1 --hive-import --create-hive-table --
+hive-table sandp500 --target-dir '/apps/hive/warehouse/sandp500'
