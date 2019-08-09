@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		404B1E6D22EBD0EB00649FFE /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B1E6C22EBD0EB00649FFE /* DetailedViewController.swift */; };
+		407A5DFC22EC9A8100E0BB98 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A5DFB22EC9A8100E0BB98 /* MapViewController.swift */; };
 		40869CCE22E3560C00BF2911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40869CCD22E3560C00BF2911 /* AppDelegate.swift */; };
 		40869CD022E3560C00BF2911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40869CCF22E3560C00BF2911 /* ViewController.swift */; };
 		40869CD322E3560C00BF2911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40869CD122E3560C00BF2911 /* Main.storyboard */; };
@@ -21,6 +22,9 @@
 		40869D0222E367EE00BF2911 /* wonders.json in Resources */ = {isa = PBXBuildFile; fileRef = 40869D0122E367EE00BF2911 /* wonders.json */; };
 		40869D0422E38D4900BF2911 /* Wow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40869D0322E38D4900BF2911 /* Wow.storyboard */; };
 		40869D0A22E38FC500BF2911 /* NewWonderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40869D0922E38FC500BF2911 /* NewWonderViewController.swift */; };
+		40C0AC3422FE170A0025FBF5 /* SavedWondersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0AC3322FE170A0025FBF5 /* SavedWondersViewController.swift */; };
+		40C0AC3622FE1D7A0025FBF5 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C0AC3522FE1D7A0025FBF5 /* Slide.xib */; };
+		40C0AC3822FE1DBD0025FBF5 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0AC3722FE1DBD0025FBF5 /* Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		404B1E6C22EBD0EB00649FFE /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		407A5DFB22EC9A8100E0BB98 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		40869CCA22E3560C00BF2911 /* tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40869CCD22E3560C00BF2911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40869CCF22E3560C00BF2911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		40869D0122E367EE00BF2911 /* wonders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wonders.json; sourceTree = SOURCE_ROOT; };
 		40869D0322E38D4900BF2911 /* Wow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Wow.storyboard; sourceTree = "<group>"; };
 		40869D0922E38FC500BF2911 /* NewWonderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWonderViewController.swift; sourceTree = "<group>"; };
+		40C0AC3322FE170A0025FBF5 /* SavedWondersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedWondersViewController.swift; sourceTree = "<group>"; };
+		40C0AC3522FE1D7A0025FBF5 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		40C0AC3722FE1DBD0025FBF5 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 				40869D0322E38D4900BF2911 /* Wow.storyboard */,
 				40869D0922E38FC500BF2911 /* NewWonderViewController.swift */,
 				404B1E6C22EBD0EB00649FFE /* DetailedViewController.swift */,
+				407A5DFB22EC9A8100E0BB98 /* MapViewController.swift */,
+				40C0AC3322FE170A0025FBF5 /* SavedWondersViewController.swift */,
+				40C0AC3522FE1D7A0025FBF5 /* Slide.xib */,
+				40C0AC3722FE1DBD0025FBF5 /* Slide.swift */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -255,6 +267,7 @@
 				40869D0422E38D4900BF2911 /* Wow.storyboard in Resources */,
 				40869D0222E367EE00BF2911 /* wonders.json in Resources */,
 				40869CD322E3560C00BF2911 /* Main.storyboard in Resources */,
+				40C0AC3622FE1D7A0025FBF5 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +294,14 @@
 			files = (
 				404B1E6D22EBD0EB00649FFE /* DetailedViewController.swift in Sources */,
 				40869CFC22E3565C00BF2911 /* WonderTableViewController.swift in Sources */,
+				40C0AC3422FE170A0025FBF5 /* SavedWondersViewController.swift in Sources */,
 				40869CD022E3560C00BF2911 /* ViewController.swift in Sources */,
 				40869D0A22E38FC500BF2911 /* NewWonderViewController.swift in Sources */,
 				40869D0022E367B300BF2911 /* Wonders.swift in Sources */,
 				40869CFE22E3588700BF2911 /* WondersTableViewCell.swift in Sources */,
 				40869CCE22E3560C00BF2911 /* AppDelegate.swift in Sources */,
+				407A5DFC22EC9A8100E0BB98 /* MapViewController.swift in Sources */,
+				40C0AC3822FE1DBD0025FBF5 /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

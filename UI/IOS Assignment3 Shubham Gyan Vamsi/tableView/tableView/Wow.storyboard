@@ -66,17 +66,30 @@
                         <viewLayoutGuide key="safeArea" id="qKM-QX-Wxx"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="bOY-1M-hA1"/>
+                    <navigationItem key="navigationItem" id="bOY-1M-hA1">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="pfa-9B-Gnx" userLabel="Scroll Items">
+                            <connections>
+                                <segue destination="VZm-2s-Nw4" kind="show" identifier="SaveWondersSegue" id="aEY-1R-9vT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="232-zr-P7t" id="ICH-gl-c3G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0wG-aO-pDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationBar contentMode="scaleToFill" id="HA1-CR-sdY">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <navigationItem title="Title" id="XHa-1Q-KvY"/>
+                    </items>
+                </navigationBar>
             </objects>
             <point key="canvasLocation" x="815.94202898550736" y="-349.55357142857139"/>
         </scene>
-        <!--Detailed View Controller-->
+        <!--Wonders Details-->
         <scene sceneID="8xJ-K0-pix">
             <objects>
                 <viewController storyboardIdentifier="DetailedViewController" id="dhk-JB-L02" customClass="DetailedViewController" customModule="tableView" customModuleProvider="target" sceneMemberID="viewController">
@@ -118,6 +131,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="KRF-LI-Rnn">
+                                <rect key="frame" x="203" y="257" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -142,7 +159,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xQ8-kR-Bop"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Wonders Details" id="TaD-Pa-ptU">
+                        <barButtonItem key="rightBarButtonItem" title="MapView" id="2K7-aR-Nov">
+                            <connections>
+                                <segue destination="iHH-kM-hiM" kind="show" identifier="MapSegue" id="eLk-Ub-26M"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="activityIndicator" destination="KRF-LI-Rnn" id="x9c-zq-7Dv"/>
                         <outlet property="descriptionlbl" destination="SZE-iw-bVT" id="E08-Hr-cbn"/>
                         <outlet property="namelbl" destination="PXV-8j-0eQ" id="dPq-NK-sRd"/>
                         <outlet property="userRating" destination="5UQ-88-Me8" id="czl-tu-sWR"/>
@@ -152,6 +177,69 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0U-Zg-TVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1528.985507246377" y="-349.55357142857139"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="fRS-K9-AZO">
+            <objects>
+                <viewController id="iHH-kM-hiM" customClass="MapViewController" customModule="tableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uoo-KR-VjT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-3J-fBB">
+                                <rect key="frame" x="20" y="65" width="374" height="797"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tCa-mK-352"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="4TV-3J-fBB" id="FqP-Me-Hre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Jg-fY-Hhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2360.8695652173915" y="-350.22321428571428"/>
+        </scene>
+        <!--Saved Wonders View Controller-->
+        <scene sceneID="RCH-Mw-083">
+            <objects>
+                <viewController id="VZm-2s-Nw4" customClass="SavedWondersViewController" customModule="tableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X62-X8-pCL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="zuA-10-eAW">
+                                <rect key="frame" x="187.5" y="726" width="39" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="pageIndicatorTintColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zsy-zV-ul0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="83y-3G-YzJ" firstAttribute="bottom" secondItem="zuA-10-eAW" secondAttribute="bottom" constant="20" id="FuK-Jg-cwD"/>
+                            <constraint firstItem="zuA-10-eAW" firstAttribute="centerX" secondItem="83y-3G-YzJ" secondAttribute="centerX" id="KJb-EX-3xs"/>
+                            <constraint firstItem="Zsy-zV-ul0" firstAttribute="trailing" secondItem="X62-X8-pCL" secondAttribute="trailing" id="MAQ-hg-Zw6"/>
+                            <constraint firstItem="Zsy-zV-ul0" firstAttribute="bottom" secondItem="X62-X8-pCL" secondAttribute="bottom" id="gGe-qA-vME"/>
+                            <constraint firstItem="Zsy-zV-ul0" firstAttribute="leading" secondItem="X62-X8-pCL" secondAttribute="leading" id="pBl-jG-XeN"/>
+                            <constraint firstItem="Zsy-zV-ul0" firstAttribute="top" secondItem="83y-3G-YzJ" secondAttribute="top" id="rbZ-Jx-4QB"/>
+                            <constraint firstItem="83y-3G-YzJ" firstAttribute="bottom" secondItem="zuA-10-eAW" secondAttribute="bottom" constant="50" id="rwT-V3-ad1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="83y-3G-YzJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="zuA-10-eAW" id="9m8-Ld-8mf"/>
+                        <outlet property="scrollView" destination="Zsy-zV-ul0" id="2rE-AN-Ehu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98y-CI-hiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815.94202898550736" y="389.73214285714283"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ezh-w4-uCA">
